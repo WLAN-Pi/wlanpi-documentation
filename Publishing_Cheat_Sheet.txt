@@ -1,0 +1,31 @@
+Publishing Cheat Sheet
+----------------------
+
+The WLANPi documentation is created and published using MKDocs. More info at : https://www.mkdocs.org/#mkdocs
+
+The docs are contained in a GitHub repo and are then built in a GitHub project page. The current published site can be found at: https://wlan-pi.github.io/wlanpi-documentation/
+
+The site can be built locally on your machine and pre-viewed using the 'mkdocs serve' command before pushing to GitHub.
+
+Once edits have bene completed, they can be built and pushed to the GitHub project page created to host the final pages. See the following doc for more info: https://www.mkdocs.org/user-guide/deploying-your-docs/
+
+Workflow:
+
+1. Setup your environment
+    a. Install Python 3 on your local machine (https://www.python.org/downloads/)
+    b. Upgrade pip: pip install --upgrade pip
+    c. Install MKDocs: pip install mkdocs
+    d. Install Git if you don't already have it: https://git-scm.com/downloads
+    e. Change in to a directory where you wish to clone the repo
+    f. Clone the repo to allow you to work on it locally: https://github.com/WLAN-Pi/wlanpi-documentation.git
+2. Creating or editing docs
+    a. Change in to the cloned directory and verify files exist
+    b. Edit files as per the MKDocs guide: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
+    c. Run the local mkdocs server: mkdocs serve
+    c. Once editing is complete, buid the site : mkdocs build
+    d. Commit & push files from local Git instance
+    e. Push the new docs to the GitHub project page using: mkdocs gh-deploy (see https://www.mkdocs.org/user-guide/deploying-your-docs/)
+    f. Check updates all look good at : https://wlan-pi.github.io/wlanpi-documentation/
+
+
+
