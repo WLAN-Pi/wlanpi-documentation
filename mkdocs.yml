@@ -1,1 +1,4 @@
 site_name: WLANPi Documentation Project
+nav:
+    - About: about.md
+theme: readthedocs
