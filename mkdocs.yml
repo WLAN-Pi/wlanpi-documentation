@@ -1,4 +1,8 @@
 site_name: WLANPi Documentation Project
 nav:
     - About: about.md
-theme: readthedocs
+theme:
+    name: 'material'
+    logo:
+        icon: wifi
+
