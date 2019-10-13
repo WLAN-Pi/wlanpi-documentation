@@ -1,8 +1,8 @@
 site_name: WLANPi Documentation Project
 nav:
+    - Home: index.md
     - About: about.md
 theme:
     name: 'material'
     logo:
         icon: wifi
-
