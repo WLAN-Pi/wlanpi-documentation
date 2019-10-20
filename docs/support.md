@@ -1,3 +1,6 @@
+Title: WLANPi support
+Authors: Nigel Bowden
+
 # Support
 As this project is provided by a team of volunteers, any support around the configuration and operation of your WLANPi is provided on a best-efforts basis. 
 
@@ -10,6 +13,9 @@ For all other issues the best ways to contact the team are:
 
 Another option may be to have a look through [GitHub][GitHub] and see if you can find the original author of the module you are having issues with and drop them a note.
 
+<!-- Link list -->
 [Sam_Clements]: https://www.twitter.com/samuel_clements
 [WLANPi]: https://www.twitter.com/WLANPi
 [GitHub]: https://github.com/WLAN-PI
+
+<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

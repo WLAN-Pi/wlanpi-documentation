@@ -1,3 +1,6 @@
+Title: WLANPi documentation about page
+Authors: Nigel Bowden
+
 # About
 <div style="float: right;">
 ![WlanlPi Logo](images/wlanpi_v_small.png)
@@ -33,5 +36,8 @@ More info: <http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2>
 The Wi-Fi adapter is a Comfast CF-912ac, Realtek rtl8812au chipset, one of the few 802.11ac chipsets that support monitor mode and packet injection in linux. 
 Important Specs: Dual-band, 2x2:2, 802.11ac
 
+<!-- link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
 [Getting_Started]: getting_started.md
+
+<small><br><i>Page last updated: {{ git_revision_date }} </i></small>
