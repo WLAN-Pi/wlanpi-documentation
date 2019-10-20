@@ -9,7 +9,13 @@ Since then, it has been widely embraced in the awesome wireless community and af
 Today, it can also be used as a remote Wi-Fi scanner, packet capture tool, portable Wi-Fi signal generator and much more! These capabilities assist wireless professionals with designing better wireless networks, troubleshooting issues more quickly, and validating wireless network performance. 
 
 ## Hardware
-### CPU
+
+There are two main component parts to the WLANPi: a NEO2 hardware platform and a wireless adapter. Other useful assessories are available, but these are the two must-have components to get yourself up and running with a WLANPi. See our [Getting Started][Getting_Started] page to find out how you can get your own WLANPi setup. 
+
+### NEO2
+<div style="float: right;">
+![CF-912](images/neo2_bare.jpg)
+</div>
 At the heart of the WLAN Pi is the NanoPi NEO2, a super tiny quad-core single-board computer (SBC). The NanoPi NEO2 shares some similarities to the more well known Raspberry Pi, however the NanoPi is less than ½ its size, consumes less power, and it can push over 900 Mbps over its gigabit ethernet connection.
 
 Specs:
@@ -21,15 +27,11 @@ Specs:
 More info: <http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2>
 
 ### Wi-Fi Adapter
+<div style="float: right;">
+![CF-912](images/cf912.jpg)
+</div>
 The Wi-Fi adapter is a Comfast CF-912ac, Realtek rtl8812au chipset, one of the few 802.11ac chipsets that support monitor mode and packet injection in linux. 
 Important Specs: Dual-band, 2x2:2, 802.11ac
 
-### Custom Handheld Case
-Designed specifically for use with the WLAN Pi, houses the Wi-Fi adapter and USB-C cable, while still exposing the USB port and ethernet port on the bottom, while still allowing access to the MicroSD slot. Creation of Joel Crane [@Potato_Fi][Potato_Fi] 
-![Custom WLANPi case](images/wlanpi_case.jpg)
-
-More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
-
-
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
-[Potato_Fi]: https://twitter.com/Potato_Fi
+[Getting_Started]: getting_started.md

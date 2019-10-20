@@ -24,7 +24,10 @@ Here is a list of the items you are going to need to source to build your own WL
 - A Comfast CF-912 USB wireless adapter: this is the currently recommended adapter to support he various wireless operations that the WLANPi supports
 - An micro-SD to USB adapter module to allow images to be burned on to the WLANPi
 - A USB to micro-USB cable to power and/or provide connectivity to the WLANPi (the flavour of USB cable will depend on your requirements)   
-- 
+- Custom Handheld Case: Designed specifically for use with the WLAN Pi, houses the Wi-Fi adapter and USB-C cable, while still exposing the USB port and ethernet port on the bottom, while still allowing access to the MicroSD slot. Creation of Joel Crane [@Potato_Fi][Potato_Fi] 
+![Custom WLANPi case](images/wlanpi_case.jpg)
+
+More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
 
 
 
@@ -33,5 +36,5 @@ Here is a list of the items you are going to need to source to build your own WL
 [Suppliers]: suppliers.md
 [Friendlyarm]: http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2
 [WLPC_Store]: http://www.wlanpros.com/product-category/store/
-
+[Potato_Fi]: https://twitter.com/Potato_Fi
 
