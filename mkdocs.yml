@@ -6,7 +6,16 @@ nav:
         - Overview: getting_started_overview.md
         - Buy a Kit: getting_started_buy_kit.md
         - Build Your Own: getting_started_build_your_own.md
-    - Packages: packages.md
+    - Packages: 
+        - Overview: packages.md
+        - Perf Measurement:
+            - HTML Speedtest: pkg_perf_speedtest.md
+            - iPerf: pkg_perf_iperf.md
+            - Ruckus Zap: pkg_perf_zap.md
+        - Analysis:
+            - Kismet: pkg_analysis_kismet.md
+            - Horst: pkg_analysis_horst.md
+            - Scapy: pkg_analysis_scapy.md
     - Suppliers: suppliers.md
     - News: news.md
     - Support: support.md
