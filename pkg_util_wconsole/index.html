@@ -36,7 +36,7 @@
     
     
       
-        <title>News about the WLANPi project</title>
+        <title>The Wi-Fi Console Utility</title>
       
     
     
@@ -75,7 +75,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#news" tabindex="1" class="md-skip">
+      <a href="#wi-fi-console" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -101,7 +101,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                News about the WLANPi project
+                The Wi-Fi Console Utility
               
             </span>
           
@@ -252,10 +252,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       Packages
@@ -403,10 +405,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4" checked>
     
     <label class="md-nav__link" for="nav-4-4">
       Utilities
@@ -422,11 +426,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../pkg_util_wconsole/" title="Wi-Fi Console" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Wi-Fi Console" class="md-nav__link md-nav__link--active">
       Wi-Fi Console
     </a>
+    
   </li>
 
         
@@ -456,56 +469,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        News
-      </label>
-    
-    <a href="./" title="News" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../news/" title="News" class="md-nav__link">
       News
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wlanpi-184-beta-released" class="md-nav__link">
-    WLANPi 1.8.4 beta released
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-the-wlan-pis-usb-host-interface-in-windows-10" class="md-nav__link">
-    Using the WLAN Pi's USB host interface in Windows 10
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -562,29 +530,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wlanpi-184-beta-released" class="md-nav__link">
-    WLANPi 1.8.4 beta released
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-the-wlan-pis-usb-host-interface-in-windows-10" class="md-nav__link">
-    Using the WLAN Pi's USB host interface in Windows 10
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -596,13 +541,15 @@
               
                 
                 
-                <h1 id="news">News</h1>
-<h2 id="wlanpi-184-beta-released">WLANPi 1.8.4 beta released</h2>
-<p><strong>14th November 2019</strong></p>
-<p>Version 1.8.49(beta) is avaiable or download at : <a href="https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.8.4_beta">v.1.8.4</a></p>
-<h2 id="using-the-wlan-pis-usb-host-interface-in-windows-10">Using the WLAN Pi's USB host interface in Windows 10</h2>
-<p><strong>31st October 2019</strong></p>
-<p>In this <a href="https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.htm">blog article</a>, Patrick Langendoen discusses how to fix an issue on Windows machines with detecting the USB connection to a WLANPi as a serial port, rather than the expected USB Ethernet /RNDIS interfaces: <a href="https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.htm">link</a></p>
+                <h1 id="wi-fi-console">Wi-Fi Console</h1>
+<p>Turn your WLANPi in to a wireless serial console cable</p>
+<p>It can be annoying to have to sit in an equipment room to use the serial console port on an item of networking equipment. This project allows you to use a WLANPi to connect to your serial console cable via a Wi-Fi link while sat in the comfort of a nearby office, rather than sat with your laptop on the equipment room floor :)</p>
+<p><img alt="Wi-Fi Console" src="https://github.com/WLAN-Pi/wconsole/blob/master/images/wlanpi_console.jpg" /></p>
+<p>Checkout these useful links for more information:</p>
+<ul>
+<li><a href="https://github.com/WLAN-Pi/wconsole">Wi-Fi Console GitHub page</a></li>
+<li><a href="https://www.youtube.com/watch?v=YwbL3D92LMw">Instructional video from WiFiNigel</a></li>
+</ul>
 <!-- Link list -->
 
 <p><small><br><i>Page last updated: 2019-11-16 </i></small></p>
@@ -626,7 +573,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../suppliers/" title="Suppliers" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../packages/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -635,19 +582,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Suppliers
+                Overview
               </span>
             </div>
           </a>
         
         
-          <a href="../support/" title="Support" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../suppliers/" title="Suppliers" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Support
+                Suppliers
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
