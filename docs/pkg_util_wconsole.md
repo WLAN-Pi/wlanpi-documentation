@@ -17,6 +17,6 @@ Checkout these useful links for more information:
 <!-- Link list -->
 [wifi_console_github]: https://github.com/WLAN-Pi/wconsole
 [wifi_console_youtube]: https://www.youtube.com/watch?v=YwbL3D92LMw
-[wifi_console_image]: https://github.com/WLAN-Pi/wconsole/blob/master/images/wlanpi_console.jpg
+[wifi_console_image]: https://github.com/WLAN-Pi/wconsole/blob/master/images/wlanpi_console.jpg?raw=true
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
