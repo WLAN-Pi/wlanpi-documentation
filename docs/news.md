@@ -3,7 +3,12 @@ Authors: Nigel Bowden
 
 # News
 
-31st October 2019
+## WLANPi 1.8.4 beta released
+
+**14th November 2019**
+
+Version 1.8.49(beta) is avaiable or download at : [v.1.8.4][Ver_184beta]
+
 
 ## Using the WLAN Pi's USB host interface in Windows 10
 
@@ -14,5 +19,6 @@ In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fi
 
 <!-- Link list -->
 [Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.htm
+[Ver_184beta]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.8.4_beta
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>

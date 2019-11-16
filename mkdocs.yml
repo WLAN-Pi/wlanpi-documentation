@@ -16,6 +16,8 @@ nav:
             - Kismet: pkg_analysis_kismet.md
             - Horst: pkg_analysis_horst.md
             - Scapy: pkg_analysis_scapy.md
+        - Utilities:
+            - Wi-Fi Console: pkg_util_wconsole.md
     - Suppliers: suppliers.md
     - News: news.md
     - Support: support.md
