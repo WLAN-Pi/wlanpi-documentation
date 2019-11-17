@@ -8,6 +8,7 @@ Here is a collection of useful articles and resources that may help you on your 
 ## Development:
 
  - [WLANPi GitHub site][GitHub]
+ - [WLANPi.com][wlanpi.com]
 
 ## Articles
 
@@ -15,5 +16,6 @@ Here is a collection of useful articles and resources that may help you on your 
 
 <!-- Link list -->
 [GitHub]: https://github.com/WLAN-PI
+[wlanpi.com]: http://wlanpi.com/
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
