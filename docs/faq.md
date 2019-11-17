@@ -15,7 +15,7 @@ TBA
 
 ## Where can I get help support with my WLANPi?
 
-Support is on a volunteer/best efforts basis by project volunteers. Try [support][here]
+Support is on a volunteer/best efforts basis by project volunteers. Try [here][support]
 
 <!-- Link list -->
 [support]: support.md
