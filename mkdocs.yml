@@ -19,6 +19,7 @@ nav:
         - Utilities:
             - Wi-Fi Console: pkg_util_wconsole.md
     - Suppliers: suppliers.md
+    - FAQ: faq.md
     - News: news.md
     - Support: support.md
     - Getting Involved: get_involved.md
