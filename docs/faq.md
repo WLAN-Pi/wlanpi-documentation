@@ -17,6 +17,14 @@ TBA
 
 Support is on a volunteer/best efforts basis by project volunteers. Try [here][support]
 
+### How do I set the timezone on my WLANPi?
+
+From the CLI of your WLANPi:
+
+```
+dpkg-reconfigure tzdata
+```
+
 <!-- Link list -->
 [support]: support.md
 [wlanpi_releases]: https://github.com/WLAN-Pi/wlanpi/releases
