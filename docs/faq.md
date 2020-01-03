@@ -22,7 +22,7 @@ Support is on a volunteer/best efforts basis by project volunteers. Try [here][s
 From the CLI of your WLANPi:
 
 ```
-dpkg-reconfigure tzdata
+sudo dpkg-reconfigure tzdata
 ```
 
 <!-- Link list -->
