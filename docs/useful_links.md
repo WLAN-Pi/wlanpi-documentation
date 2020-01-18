@@ -12,10 +12,11 @@ Here is a collection of useful articles and resources that may help you on your 
 
 ## Articles
 
-- 
+- [Remote access to a device behind NAT/Firewall][RemoteAccessNAT]
 
 <!-- Link list -->
 [GitHub]: https://github.com/WLAN-PI
 [wlanpi.com]: http://wlanpi.com/
+[RemoteAccessNAT]: https://thoughts.finimundi.com/remote-access-to-a-device-behind-nat-firewall/
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
