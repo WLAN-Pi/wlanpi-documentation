@@ -25,7 +25,7 @@ More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
 
 <!-- Link list -->
 [Suppliers]: suppliers.md
-[Friendlyarm]: http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2
+[Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=276
 [WLPC_Store]: http://www.wlanpros.com/product-category/store/
 [Potato_Fi]: https://twitter.com/Potato_Fi
 
