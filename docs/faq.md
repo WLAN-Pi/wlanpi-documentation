@@ -11,7 +11,9 @@ The latest WLANPi image is available [here][wlanpi_releases]
 
 ## How do I burn a WLANPi image?
 
-TBA
+If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining th eprocess: [burn_image][video]
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sD4WlNyyWDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Where can I get help support with my WLANPi?
 
@@ -28,5 +30,6 @@ sudo dpkg-reconfigure tzdata
 <!-- Link list -->
 [support]: support.md
 [wlanpi_releases]: https://github.com/WLAN-Pi/wlanpi/releases
+[burn_image]: https://youtu.be/sD4WlNyyWDs
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
