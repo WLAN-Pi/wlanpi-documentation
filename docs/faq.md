@@ -19,7 +19,7 @@ If you'd like to burn a WLAN Pi image on to a kit you've bought or update the im
 
 By default, the hostname of your WLAN Pi is : wlanpi
 
-If you'd like to change this to a more meaningful hostname, then you will need to SSH to your WLAN Pi and update the ```/etc/hostname``` and ```/etc/hosts``` files, follwed by a reboot of the WLAN Pi:
+If you'd like to change this to a more meaningful hostname, then you will need to SSH to your WLAN Pi and update the ```/etc/hostname``` and ```/etc/hosts``` files, followed by a reboot of the WLAN Pi:
 
 Edit the /etc/hostname file using the command:
 
