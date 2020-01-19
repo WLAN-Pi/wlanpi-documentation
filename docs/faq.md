@@ -34,7 +34,7 @@ Next, edit the /etc/hosts file:
 ```
  sudo nano /etc/hosts
 ```
-change each instance of 'wlanpi' to the new hostname (there are usually two instances). Then hit Ctrl-X  and "y" to save your changes.
+Change each instance of 'wlanpi' to the new hostname (there are usually two instances). Then hit Ctrl-X  and "y" to save your changes.
 
 Finally, reboot your WLAN Pi:
 
