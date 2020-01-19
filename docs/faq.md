@@ -46,7 +46,7 @@ Finally, reboot your WLAN Pi:
 
 Support is on a volunteer/best efforts basis by project volunteers. Try [here][support]
 
-### How do I set the timezone on my WLAN Pi?
+## How do I set the timezone on my WLAN Pi?
 
 From the CLI of your WLAN Pi:
 
