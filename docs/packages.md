@@ -17,13 +17,15 @@ An overview of each of these packages is provided in this section.
     - Horst
     - Scapy
     - Tcpdump
-    - Termshark
+    - [Termshark][termshark]
     - extcap
 - Uilities
     - [Wi-Fi Console][wifi_console]
+    - Hotspot Mode
 
 
 <!-- Link list -->
 [wifi_console]: pkg_util_wconsole.md
+[termshark]: pkg_analysis_termshark.md
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
