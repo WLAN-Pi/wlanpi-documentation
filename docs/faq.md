@@ -25,7 +25,7 @@ Edit the /etc/hostname file using the command:
 
 ```
  sudo nano /etc/hostname
- ```
+```
 
 There is a single line that says 'wlanpi'. Change this to your required hostname. Then hit Ctrl-X  and "y" to save your changes.
 
