@@ -9,7 +9,7 @@ To get started with the WLAN Pi, you're going to need to get hold of some WLAN P
 
 - Attend a [WLPC conference][WLPC_Conference] and complete one of the WLAN Pi deep dive sessions
 - Buy a complete kit from the [WLPC online store][WLPC_Store]
-- Source the individual items you'll need yourself from a number of sources.
+- Source the individual items you'll need yourself from various suppliers.
 
 Obviously, buying the kit from the [WLPC store][WLPC_Store] is a quick and easy option. You get the advantage of having all the components you need in one order, and the kit comes pre-assembled with a software image burned and ready to go. You also have a reputable, single source to contact if there are any issues with your purchase.
 
