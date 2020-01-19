@@ -5,7 +5,7 @@ Authors: Nigel Bowden
 <div style="float: right;">
 ![WlanlPi Logo](images/wlanpi_v_small.png)
 </div>
-To get started with the WLAN Pi, you're going to need to get hold of some WLAN Pi hardware. The items you'll need are all genrally low cost and are relatively easy to get source. There are a few options available to get yourself set up with a WLAN Pi:
+To get started with the WLAN Pi, you're going to need to get hold of some WLAN Pi hardware. The items you'll need are all generally low cost and relatively easy to get source. There are a few options available to get yourself set up with a WLAN Pi:
 
 - Attend a [WLPC conference][WLPC_Conference] and complete one of the WLAN Pi deep dive sessions
 - Buy a complete kit from the [WLPC online store][WLPC_Store]
