@@ -3,6 +3,24 @@ Authors: Nigel Bowden
 
 # News
 
+## How to burn a new image on your WLAN Pi (Video)
+
+**19th January 2020**
+
+Video on [Youtube][burn_image].
+
+## WLAN Pi Image v1.9.0 released
+
+**2nd January 2019**
+
+Image version 1.9.0 is available for download at : [v1.9.0][Ver_190]
+
+## Remote access to a device behind NAT/Firewall
+
+**24th November 2019**
+
+Article by Daniel Finimundi: [article][remote_access]
+
 ## WLANPi 1.8.4 beta released
 
 **14th November 2019**
@@ -26,6 +44,9 @@ In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fi
 <!-- Link list -->
 [Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.htm
 [Ver_184beta]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.8.4_beta
+[Ver_190]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.9.0
 [blog_syslog]: https://thewlan.com.au/2019/11/14/wlanpi-as-a-syslog-server/
+[remote_access]: https://thoughts.finimundi.com/remote-access-to-a-device-behind-nat-firewall/
+[burn_image]: https://youtu.be/sD4WlNyyWDs
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
