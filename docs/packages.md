@@ -17,6 +17,7 @@ An overview of each of these packages is provided in this section.
     - Horst
     - Scapy
     - Tcpdump
+    - Termshark
     - extcap
 - Uilities
     - [Wi-Fi Console][wifi_console]
