@@ -20,7 +20,7 @@ Optional extra items:
 - [POE Splitter][POE_Splitter]. If you'd like to power your WLAN Pi from a switch POE port, a splitter is just what you need. However, ensure that you buy a [splitter that supports Gigabit-Ethernet][POE_Splitter], as many low-cost POE splitters are only 100mbps Ethernet (which is not great when you are using the WLAN Pi for speedtests or iperf). 
 - Lithium battery (in case you want to leave the WLAN Pi powered on for a few hours somewhere)
 - Extra [micro-SD card][Micro_SD] (in case you'd like a spare for different image versions or customizations)
-- [Custom Handheld Case][Handheld_Case]: Designed specifically for use with the WLAN Pi, houses the Wi-Fi adapter and USB-C cable, while still exposing the USB port and ethernet port on the bottom, while still allowing access to the MicroSD slot - a great additon to make the WLAN Pi in to a true hnd-held tester! (Created by Joel Crane [@Potato_Fi][Potato_Fi] 
+- [Custom Handheld Case][Handheld_Case]: Designed specifically for use with the WLAN Pi, houses the Wi-Fi adapter and USB-C cable, while still exposing the USB port and ethernet port on the bottom, while still allowing access to the MicroSD slot - a great additon to make the WLAN Pi in to a true hand-held tester! (Created by Joel Crane [@Potato_Fi][Potato_Fi] 
 ![Custom WLAN Pi case](images/wlanpi_case.jpg)
 
 More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
