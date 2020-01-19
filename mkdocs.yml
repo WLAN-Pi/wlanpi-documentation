@@ -1,4 +1,4 @@
-site_name: WLANPi Documentation Project
+site_name: WLAN Pi Documentation Project
 nav:
     - Home: index.md
     - About: about.md
