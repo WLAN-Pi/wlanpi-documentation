@@ -1,4 +1,4 @@
-Title: WLANPi documentation about page
+Title: WLAN Pi documentation about page
 Authors: Nigel Bowden
 
 # About
@@ -13,7 +13,7 @@ Today, it can also be used as a remote Wi-Fi scanner, packet capture tool, porta
 
 ## Hardware
 
-There are two main component parts to the WLANPi: a NEO2 hardware platform and a wireless adapter. Other useful assessories are available, but these are the two must-have components to get yourself up and running with a WLANPi. See our [Getting Started][Getting_Started] page to find out how you can get your own WLANPi setup. 
+There are two main component parts to the WLAN Pi: a NEO2 hardware platform and a wireless adapter. Other useful assessories are available, but these are the two must-have components to get yourself up and running with a WLAN Pi. See our [Getting Started][Getting_Started] page to find out how you can get your own WLAN Pi setup. 
 
 ### NEO2
 <div style="float: right;">
@@ -33,8 +33,9 @@ More info: <http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2>
 <div style="float: right;">
 ![CF-912](images/cf912.jpg)
 </div>
-The Wi-Fi adapter is a Comfast CF-912ac, Realtek rtl8812au chipset, one of the few 802.11ac chipsets that support monitor mode and packet injection in linux. 
-Important Specs: Dual-band, 2x2:2, 802.11ac
+The Wi-Fi adapter is a Comfast CF-912ac. It uses the Realtek rtl8812au chipset, one of the few 802.11ac chipsets that support monitor mode and packet injection in linux. 
+
+Specs: Dual-band, 2x2:2, 802.11ac
 
 <!-- link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
