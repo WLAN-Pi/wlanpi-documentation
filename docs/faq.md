@@ -9,7 +9,7 @@ The latest WLANPi image is available [here][wlanpi_releases]
 
 (avoid the alpha releases, they are unstable, development builds, Beta are usually pretty good but may have the odd bug)
 
-## How do I burn a WLANPi image?
+## How do I burn a WLAN Pi image?
 
 If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining th eprocess: [burn_image][video]
 
@@ -21,7 +21,7 @@ Support is on a volunteer/best efforts basis by project volunteers. Try [here][s
 
 ### How do I set the timezone on my WLANPi?
 
-From the CLI of your WLANPi:
+From the CLI of your WLAN Pi:
 
 ```
 sudo dpkg-reconfigure tzdata
