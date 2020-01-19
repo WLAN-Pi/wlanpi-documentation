@@ -505,6 +505,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
+    Where can I get help support with my WLAN Pi?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-set-the-timezone-on-my-wlan-pi" class="md-nav__link">
+    How do I set the timezone on my WLAN Pi?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -605,6 +625,26 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
+    Where can I get help support with my WLAN Pi?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-set-the-timezone-on-my-wlan-pi" class="md-nav__link">
+    How do I set the timezone on my WLAN Pi?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -635,35 +675,25 @@
 <p>If you'd like to change this to a more meaningful hostname, then you will need to SSH to your WLAN Pi and update the <code>/etc/hostname</code> and <code>/etc/hosts</code> files, follwed by a reboot of the WLAN Pi:</p>
 <p>Edit the /etc/hostname file using the command:</p>
 <pre><code> sudo nano /etc/hostname
- ```
-
-There is a single line that says 'wlanpi'. Change this to your required hostname. Then hit Ctrl-X  and &quot;y&quot; to save your changes.
-
-Next, edit the /etc/hosts file:
-
 </code></pre>
 
-<p>sudo nano /etc/hosts</p>
-<pre><code>change each instance of 'wlanpi' to the new hostname (there are usually two instances). Then hit Ctrl-X  and &quot;y&quot; to save your changes.
-
-Finally, reboot your WLAN Pi:
-
+<p>There is a single line that says 'wlanpi'. Change this to your required hostname. Then hit Ctrl-X  and "y" to save your changes.</p>
+<p>Next, edit the /etc/hosts file:</p>
+<pre><code> sudo nano /etc/hosts
 </code></pre>
 
-<p>sudo reboot</p>
-<pre><code>
-## Where can I get help support with my WLAN Pi?
-
-Support is on a volunteer/best efforts basis by project volunteers. Try [here][support]
-
-### How do I set the timezone on my WLAN Pi?
-
-From the CLI of your WLAN Pi:
-
+<p>change each instance of 'wlanpi' to the new hostname (there are usually two instances). Then hit Ctrl-X  and "y" to save your changes.</p>
+<p>Finally, reboot your WLAN Pi:</p>
+<pre><code> sudo reboot
 </code></pre>
 
-<p>sudo dpkg-reconfigure tzdata
-```</p>
+<h2 id="where-can-i-get-help-support-with-my-wlan-pi">Where can I get help support with my WLAN Pi?</h2>
+<p>Support is on a volunteer/best efforts basis by project volunteers. Try <a href="../support/">here</a></p>
+<h3 id="how-do-i-set-the-timezone-on-my-wlan-pi">How do I set the timezone on my WLAN Pi?</h3>
+<p>From the CLI of your WLAN Pi:</p>
+<pre><code>sudo dpkg-reconfigure tzdata
+</code></pre>
+
 <!-- Link list -->
 
 <p><small><br><i>Page last updated: 2020-01-19 </i></small></p>
