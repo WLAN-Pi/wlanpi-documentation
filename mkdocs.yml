@@ -19,6 +19,7 @@ nav:
             - Termshark: pkg_analysis_termshark.md
         - Utilities:
             - Wi-Fi Console: pkg_util_wconsole.md
+            - Hotspot Mode: pkg_util_hotspot.md
     - Suppliers: suppliers.md
     - FAQ: faq.md
     - News: news.md
