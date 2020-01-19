@@ -1,7 +1,7 @@
-Title: How to get started with the WLANPi
+Title: How to get started with the WLAN Pi
 Authors: Nigel Bowden
 
-# Getting Started with the WLANPi
+# Getting Started with the WLAN Pi
 
 ## Buying a Kit
 If you'd like to buy a pre-built kit, check out our [suppliers page][Suppliers]. We'll keep this updated with kit buying options.
