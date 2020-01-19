@@ -25,6 +25,7 @@ Optional extra items:
 
 More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
 
+<small>(Note: some the the links on this page are Amazon affiliate links)</small>
 
 <!-- Link list -->
 [Suppliers]: suppliers.md
