@@ -7,7 +7,7 @@ Authors: Nigel Bowden
 </div>
 Welcome to the WLAN Pi documentation site. 
 
-The WLAN Pi initiative started at the [Wireless LAN Professionals Conference][WLPC_2016] in 2016. Since then, the WLAN Pi has grown in to a popular addition to the toolset of many WLAN engineers. The project is constantly adding and improving the tools avaiable on the WLAN Pi platform to provide a richer toolset to our loyal base of users. 
+The WLAN Pi initiative started at the [Wireless LAN Professionals Conference][WLPC_2016] in 2016. Since then, the WLAN Pi has grown in to a popular addition to the toolset of many WLAN engineers. The project is constantly adding and improving the tools available on the WLAN Pi platform to provide a richer toolset to our loyal base of users. 
 
 This site has been created to provide supporting documentation to the project, to make the WLAN Pi even more accessible to new and existing users.
 

@@ -17,6 +17,7 @@ nav:
             - Horst: pkg_analysis_horst.md
             - Scapy: pkg_analysis_scapy.md
             - Termshark: pkg_analysis_termshark.md
+            - extcap: pkg_analysis_extcap.md
         - Utilities:
             - Wi-Fi Console: pkg_util_wconsole.md
             - Hotspot Mode: pkg_util_hotspot.md

@@ -5,18 +5,16 @@ Authors: Nigel Bowden
 
 Hotspot mode allows the WLAN Pi to become a small-scale AP to allow a variety of tests to be performed. 
 
-It broadcasts an SSID, allowing the WLAN Pi to be used as a source for wall attenutation measurements ( see [this article][wall-measurements] ).
+It broadcasts an SSID, allowing the WLAN Pi to be used as a source for wall attenuation measurements ( see [this article][wall-measurements] ).
 
 It may also be used to associate a client and perform speedtest measurements using the WLAN Pi's speedtest and iperf capabilities.
 
 Finally, it also supports forwarding so that the WLAN Pi may also be connected to an Ethernet port while in hotspot mode and allow a wireless client to connect through to wired network.
 
 To access hotspot mode, on the WLAN Pi front panel, select : Menu > Mode > Hotspot
-
 <div style="float: center;">
 ![WlanlPi Logo](images/hotspot.png)
 </div>
-
 ## References:
 
 - [GitHub site][github]
