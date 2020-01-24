@@ -11,7 +11,7 @@ The latest WLAN Pi image is available [here][wlanpi_releases]
 
 ## How do I burn a WLAN Pi image?
 
-If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining th eprocess: [burn_image][video]
+If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining the process:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sD4WlNyyWDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

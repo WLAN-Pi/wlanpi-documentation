@@ -18,14 +18,16 @@ An overview of each of these packages is provided in this section.
     - Scapy
     - Tcpdump
     - [Termshark][termshark]
-    - extcap
+    - [extcap][extcap]
 - Uilities
     - [Wi-Fi Console][wifi_console]
-    - Hotspot Mode
+    - [Hotspot Mode][hotspot]
 
 
 <!-- Link list -->
 [wifi_console]: pkg_util_wconsole.md
 [termshark]: pkg_analysis_termshark.md
+[hotspot]: pkg_util_hotspot.md
+[extcap]: pkg_analysis_extcap.md
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
