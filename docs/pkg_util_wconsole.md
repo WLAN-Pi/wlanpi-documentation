@@ -9,6 +9,10 @@ It can be annoying to have to sit in an equipment room to use the serial console
 
 ![Wi-Fi Console][wifi_console_image]
 
+The video below provides a demonstration of using wconsole:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YwbL3D92LMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Checkout these useful links for more information:
 
 - [Wi-Fi Console GitHub page][wifi_console_github]
