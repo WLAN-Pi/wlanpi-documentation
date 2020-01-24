@@ -3,7 +3,9 @@ Authors: Nigel Bowden
 
 # extcap
 
-The [extcap project][extcap-github-mac] was originally created by Adrian Granados. It is a wrapper around the SSHDump feature provided in Wireshark 3.x. The extcap feature is not actualy a package on the WLAN Pi, but allows the WLAN Pi to be used as a remote capture device using Wireshark. It allows the configuration of the WLAN Pi device via the Wireshark GUI to start a wireless frame capure. 
+The [extcap project][extcap-github-mac] was originally created by Adrian Granados. 
+
+The utility is a wrapper around the SSHDump feature provided in Wireshark 3.x. Extcap feature is not actually a package on the WLAN Pi, but is an external utility that allows the WLAN Pi to be used as a remote capture device using Wireshark. It needs to be installed on the laptop where Wirehsrk is installed. It also provides additional options within Wireshark to allow the configuration of the WLAN Pi device to start a remote wireless frame capure. 
 
 <div style="float: center;">
 ![extcap](images/extcap_win.jpg)
