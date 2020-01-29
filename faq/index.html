@@ -555,6 +555,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-do-i-connect-my-wlan-pi-to-my-wireless-network" class="md-nav__link">
+    How do I connect my WLAN Pi to my wireless network?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etcnetworkinterfaces" class="md-nav__link">
+    /etc/network/interfaces
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etcwpa_supplicantwpa_supplicantconf" class="md-nav__link">
+    /etc/wpa_supplicant/wpa_supplicant.conf
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -669,6 +696,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-do-i-connect-my-wlan-pi-to-my-wireless-network" class="md-nav__link">
+    How do I connect my WLAN Pi to my wireless network?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etcnetworkinterfaces" class="md-nav__link">
+    /etc/network/interfaces
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etcwpa_supplicantwpa_supplicantconf" class="md-nav__link">
+    /etc/wpa_supplicant/wpa_supplicant.conf
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -718,9 +772,54 @@
 <pre><code>sudo dpkg-reconfigure tzdata
 </code></pre>
 
+<h2 id="how-do-i-connect-my-wlan-pi-to-my-wireless-network">How do I connect my WLAN Pi to my wireless network?</h2>
+<p>Assuming your network uses a PSK, simply edit the follwing files:</p>
+<ul>
+<li>/etc/network/interfaces</li>
+<li>/etc/wpa_supplicant/wpa_supplicant.conf</li>
+</ul>
+<h3 id="etcnetworkinterfaces">/etc/network/interfaces</h3>
+<p>Edit the file as follows:</p>
+<pre><code>sudo nano /etc/network/interfaces
+</code></pre>
+
+<p>Edit the following section of the file for wlan0:</p>
+<pre><code># Wireless adapter #1
+# Armbian ships with network-manager installed by default. To save you time
+# and hassles consider using 'sudo nmtui' instead of configuring Wi-Fi settings
+# manually. The below lines are only meant as an example how configuration could
+# be done in an anachronistic way:
+#
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+#address 192.168.0.100
+#netmask 255.255.255.0
+#gateway 192.168.0.1
+#dns-nameservers 8.8.8.8 8.8.4.4
+#   wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+# Disable power saving on compatible chipsets (prevents SSH/connection dropouts over WiFi)
+wireless-mode Monitor
+#wireless-power off
+</code></pre>
+
+<p>Remove the "#" character from the start of the line:</p>
+<pre><code>#   wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+</code></pre>
+
+<p>Save the file by hitting CTRL-x</p>
+<h3 id="etcwpa_supplicantwpa_supplicantconf">/etc/wpa_supplicant/wpa_supplicant.conf</h3>
+<p>Edit the file as follows:</p>
+<pre><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+&lt;make your changes&gt;
+CTRL-x
+</code></pre>
+
+<p>Enter your SSID and PSK in the areas indicated in the file. </p>
+<p>Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to tke effect.</p>
+<p>(For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)</p>
 <!-- Link list -->
 
-<p><small><br><i>Page last updated: 2020-01-24 </i></small></p>
+<p><small><br><i>Page last updated: 2020-01-29 </i></small></p>
                 
                   
                 
