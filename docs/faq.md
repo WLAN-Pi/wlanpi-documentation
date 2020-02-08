@@ -9,6 +9,12 @@ The latest WLAN Pi image is available [here][wlanpi_releases]
 
 (avoid the alpha releases, they are unstable, development builds, Beta are usually pretty good but may have the odd bug)
 
+## How do I find which image version is currently installed on my WLAN?
+
+If you look on the top-level "home" page of the front panel display, the version number of the image should be shown on the top left of the display.
+
+If you see no version number, it may be that you have quite an old verison of image. If you have network connectivity to the WLAN Pi, browse to it  (192.168.42.1 if you're on the USB OTG connection) and look at the top of the web page to see the image version.
+
 ## How do I burn a WLAN Pi image?
 
 If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining the process:
