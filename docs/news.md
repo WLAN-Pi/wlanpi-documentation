@@ -3,6 +3,22 @@ Authors: Nigel Bowden
 
 # News
 
+## How to check client DFS channel support
+
+**14th February 2020**
+
+Useful [video][dfs_profiler] from Whyf16uy about how to use the WLAN Pi profiler to identify if a client supports DFS channels: [link][dfs_profiler]
+
+## Image version 1.9.1 [WLPC edition] Released
+
+**13th February 2020**
+
+The new WLANPi image for WLPC Phoenix has been released, get it here : [link][v191]
+
+##ZeroTier and WLAN Pi - Keeping profiles & keys for re-imaging
+
+Nice [blog post][zt_image] from Rick Steiner about using ZeriTier on the WLAN Pi and how you can preserve your ZeroTier config next time you re-image : [link][zt_image]
+
 ## How to burn a new image on your WLAN Pi (Video)
 
 **19th January 2020**
@@ -48,5 +64,7 @@ In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fi
 [blog_syslog]: https://thewlan.com.au/2019/11/14/wlanpi-as-a-syslog-server/
 [remote_access]: https://thoughts.finimundi.com/remote-access-to-a-device-behind-nat-firewall/
 [burn_image]: https://youtu.be/sD4WlNyyWDs
-
+[v191]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.9.1
+[zt_image]: https://rickwifiguy.wordpress.com/2020/02/11/zerotier-and-wlanpi-keeping-profiles-and-keys-for-re-imaging/
+[dfs_profiler]: https://www.youtube.com/watch?v=SVjCwcrxUPU
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
