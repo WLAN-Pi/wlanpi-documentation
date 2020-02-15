@@ -561,13 +561,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
-    Where can I get help support with my WLAN Pi?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-do-i-set-the-timezone-on-my-wlan-pi" class="md-nav__link">
     How do I set the timezone on my WLAN Pi?
   </a>
@@ -598,6 +591,27 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-wireless-adapters-are-supported-on-the-wlan-pi" class="md-nav__link">
+    Which wireless adapters are supported on the WLAN Pi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
+    Where can I get help support with my WLAN Pi?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-suggest-a-new-feature-for-the-wlan-pi" class="md-nav__link">
+    How do I suggest a new feature for the WLAN Pi?
+  </a>
   
 </li>
       
@@ -709,13 +723,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
-    Where can I get help support with my WLAN Pi?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#how-do-i-set-the-timezone-on-my-wlan-pi" class="md-nav__link">
     How do I set the timezone on my WLAN Pi?
   </a>
@@ -746,6 +753,27 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-wireless-adapters-are-supported-on-the-wlan-pi" class="md-nav__link">
+    Which wireless adapters are supported on the WLAN Pi
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
+    Where can I get help support with my WLAN Pi?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-suggest-a-new-feature-for-the-wlan-pi" class="md-nav__link">
+    How do I suggest a new feature for the WLAN Pi?
+  </a>
   
 </li>
       
@@ -794,8 +822,6 @@
 <pre><code> sudo reboot
 </code></pre>
 
-<h2 id="where-can-i-get-help-support-with-my-wlan-pi">Where can I get help support with my WLAN Pi?</h2>
-<p>Support is on a volunteer/best efforts basis by project volunteers. Try <a href="../support/">here</a></p>
 <h2 id="how-do-i-set-the-timezone-on-my-wlan-pi">How do I set the timezone on my WLAN Pi?</h2>
 <p>From the CLI of your WLAN Pi:</p>
 <pre><code>sudo dpkg-reconfigure tzdata
@@ -846,9 +872,17 @@ CTRL-x
 <p>Enter your SSID and PSK in the areas indicated in the file. </p>
 <p>Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to tke effect.</p>
 <p>(For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)</p>
+<h2 id="which-wireless-adapters-are-supported-on-the-wlan-pi">Which wireless adapters are supported on the WLAN Pi</h2>
+<p>Up to image version (but not including) v1.9, the only WLAN chipset supported was the Realtek 8812au. The Comfast CF-912AC was the only adapter that had been tested to provide support for all WLAN Pi features.</p>
+<p>From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varing degrees and an alternative adapter may meet your needs. The <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">testing results</a> showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">link</a></p>
+<p>(In a future verison of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)</p>
+<h2 id="where-can-i-get-help-support-with-my-wlan-pi">Where can I get help support with my WLAN Pi?</h2>
+<p>Support is on a volunteer/best efforts basis by project volunteers. Try <a href="../support/">here</a></p>
+<h2 id="how-do-i-suggest-a-new-feature-for-the-wlan-pi">How do I suggest a new feature for the WLAN Pi?</h2>
+<p>If you have a feature suggestion for the WLAN Pi, please get along to the GitHub site for the project and open an issue ticket with your suggestion: <a href="https://github.com/WLAN-Pi/wlanpi/issues">link</a> (this will need a (free) GitHub account to create an issue)</p>
 <!-- Link list -->
 
-<p><small><br><i>Page last updated: 2020-02-08 </i></small></p>
+<p><small><br><i>Page last updated: 2020-02-15 </i></small></p>
                 
                   
                 
