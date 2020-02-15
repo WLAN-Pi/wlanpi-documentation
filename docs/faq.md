@@ -48,9 +48,7 @@ Finally, reboot your WLAN Pi:
  sudo reboot
 ```
 
-## Where can I get help support with my WLAN Pi?
 
-Support is on a volunteer/best efforts basis by project volunteers. Try [here][support]
 
 ## How do I set the timezone on my WLAN Pi?
 
@@ -120,9 +118,27 @@ Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the
 
 (For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)
 
+## Which wireless adapters are supported on the WLAN Pi
+
+Up to image version (but not including) v1.9, the only WLAN chipset supported was the Realtek 8812au. The Comfast CF-912AC was the only adapter that had been tested to provide support for all WLAN Pi features.
+
+From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varing degrees and an alternative adapter may meet your needs. The [testing results][adapter_sheet] showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: [link][adapter_sheet]
+
+(In a future verison of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)
+
+## Where can I get help support with my WLAN Pi?
+
+Support is on a volunteer/best efforts basis by project volunteers. Try [here][support]
+
+## How do I suggest a new feature for the WLAN Pi?
+
+If you have a feature suggestion for the WLAN Pi, please get along to the GitHub site for the project and open an issue ticket with your suggestion: [link][suggestions] (this will need a (free) GitHub account to create an issue)
+
 <!-- Link list -->
 [support]: support.md
 [wlanpi_releases]: https://github.com/WLAN-Pi/wlanpi/releases
 [burn_image]: https://youtu.be/sD4WlNyyWDs
+[adapter_sheet]: https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0
+[suggestions]: https://github.com/WLAN-Pi/wlanpi/issues
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
