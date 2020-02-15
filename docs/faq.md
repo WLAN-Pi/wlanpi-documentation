@@ -21,6 +21,24 @@ If you'd like to burn a WLAN Pi image on to a kit you've bought or update the im
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sD4WlNyyWDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## How do I change the password for the wlanpi user
+
+Changing the default password for the wlanpi user is highy recommended to help secure your unit.
+
+To change from the default password (which is 'wlanpi'), SSH to the WLANP Pi and use the 'passwd' command as follows:
+
+```
+wlanpi@wlanpi:~$ passwd
+Changing password for wlanpi.
+(current) UNIX password: wlanpi
+Enter new UNIX password: <enter new pwd>
+Retype new UNIX password: <enter new pwd again>
+passwd: password updated successfully
+wlanpi@wlanpi:~$
+```
+
+**If connecting the WLAN Pi to any network, changing the default password should be a top priority. If the WLAN Pi becomes compromised as default credentials have been left in place, this could have very serious consequences.**
+
 ## How do I change the hostname of my WLAN Pi
 
 By default, the hostname of your WLAN Pi is : wlanpi
