@@ -814,13 +814,13 @@
 <p>(avoid the alpha releases, they are unstable, development builds, Beta are usually pretty good but may have the odd bug)</p>
 <h2 id="how-do-i-find-which-image-version-is-currently-installed-on-my-wlan">How do I find which image version is currently installed on my WLAN?</h2>
 <p>If you look on the top-level "home" page of the front panel display, the version number of the image should be shown on the top left of the display.</p>
-<p>If you see no version number, it may be that you have quite an old verison of image. If you have network connectivity to the WLAN Pi, browse to it  (192.168.42.1 if you're on the USB OTG connection) and look at the top of the web page to see the image version.</p>
+<p>If you see no version number, it may be that you have quite an old version of image. If you have network connectivity to the WLAN Pi, browse to it  (192.168.42.1 if you're on the USB OTG connection) and look at the top of the web page to see the image version.</p>
 <h2 id="how-do-i-burn-a-wlan-pi-image">How do I burn a WLAN Pi image?</h2>
 <p>If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining the process:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sD4WlNyyWDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2 id="how-do-i-change-the-password-for-the-wlanpi-user">How do I change the password for the wlanpi user</h2>
-<p>Changing the default password for the wlanpi user is highy recommended to help secure your unit.</p>
+<p>Changing the default password for the wlanpi user is highly recommended to help secure your unit.</p>
 <p>To change from the default password (which is 'wlanpi'), SSH to the WLANP Pi and use the 'passwd' command as follows:</p>
 <pre><code>wlanpi@wlanpi:~$ passwd
 Changing password for wlanpi.
@@ -840,7 +840,11 @@ wlanpi@wlanpi:~$
 </code></pre>
 
 <p>There is a single line that says 'wlanpi'. Change this to your required hostname. Then hit Ctrl-X  and "y" to save your changes.</p>
-<p>Next, edit the /etc/hosts file:</p>
+<p>Alternatively, you may also use the following CLI command to achieve the same result:</p>
+<pre><code>sudo hostnamectl set-hostname &lt;name&gt;
+</code></pre>
+
+<p>Whichever method is used to update the hostname file, next edit the /etc/hosts file:</p>
 <pre><code> sudo nano /etc/hosts
 </code></pre>
 
@@ -855,7 +859,7 @@ wlanpi@wlanpi:~$
 </code></pre>
 
 <h2 id="how-do-i-connect-my-wlan-pi-to-my-wireless-network">How do I connect my WLAN Pi to my wireless network?</h2>
-<p>Assuming your network uses a PSK, simply edit the follwing files:</p>
+<p>Assuming your network uses a PSK, simply edit the following files:</p>
 <ul>
 <li>/etc/network/interfaces</li>
 <li>/etc/wpa_supplicant/wpa_supplicant.conf</li>
@@ -897,19 +901,19 @@ CTRL-x
 </code></pre>
 
 <p>Enter your SSID and PSK in the areas indicated in the file. </p>
-<p>Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to tke effect.</p>
+<p>Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to take effect.</p>
 <p>(For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)</p>
 <h2 id="which-wireless-adapters-are-supported-on-the-wlan-pi">Which wireless adapters are supported on the WLAN Pi</h2>
 <p>Up to image version (but not including) v1.9, the only WLAN chipset supported was the Realtek 8812au. The Comfast CF-912AC was the only adapter that had been tested to provide support for all WLAN Pi features.</p>
-<p>From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varing degrees and an alternative adapter may meet your needs. The <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">testing results</a> showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">link</a></p>
-<p>(In a future verison of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)</p>
+<p>From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varying degrees and an alternative adapter may meet your needs. The <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">testing results</a> showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">link</a></p>
+<p>(In a future version of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)</p>
 <h2 id="where-can-i-get-help-support-with-my-wlan-pi">Where can I get help support with my WLAN Pi?</h2>
 <p>Support is on a volunteer/best efforts basis by project volunteers. Try <a href="../support/">here</a></p>
 <h2 id="how-do-i-suggest-a-new-feature-for-the-wlan-pi">How do I suggest a new feature for the WLAN Pi?</h2>
 <p>If you have a feature suggestion for the WLAN Pi, please get along to the GitHub site for the project and open an issue ticket with your suggestion: <a href="https://github.com/WLAN-Pi/wlanpi/issues">link</a> (this will need a (free) GitHub account to create an issue)</p>
 <!-- Link list -->
 
-<p><small><br><i>Page last updated: 2020-02-15 </i></small></p>
+<p><small><br><i>Page last updated: 2020-02-20 </i></small></p>
                 
                   
                 
