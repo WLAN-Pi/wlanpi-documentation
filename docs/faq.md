@@ -13,7 +13,7 @@ The latest WLAN Pi image is available [here][wlanpi_releases]
 
 If you look on the top-level "home" page of the front panel display, the version number of the image should be shown on the top left of the display.
 
-If you see no version number, it may be that you have quite an old verison of image. If you have network connectivity to the WLAN Pi, browse to it  (192.168.42.1 if you're on the USB OTG connection) and look at the top of the web page to see the image version.
+If you see no version number, it may be that you have quite an old version of image. If you have network connectivity to the WLAN Pi, browse to it  (192.168.42.1 if you're on the USB OTG connection) and look at the top of the web page to see the image version.
 
 ## How do I burn a WLAN Pi image?
 
@@ -23,7 +23,7 @@ If you'd like to burn a WLAN Pi image on to a kit you've bought or update the im
 
 ## How do I change the password for the wlanpi user
 
-Changing the default password for the wlanpi user is highy recommended to help secure your unit.
+Changing the default password for the wlanpi user is highly recommended to help secure your unit.
 
 To change from the default password (which is 'wlanpi'), SSH to the WLANP Pi and use the 'passwd' command as follows:
 
@@ -53,7 +53,13 @@ Edit the /etc/hostname file using the command:
 
 There is a single line that says 'wlanpi'. Change this to your required hostname. Then hit Ctrl-X  and "y" to save your changes.
 
-Next, edit the /etc/hosts file:
+Alternatively, you may also use the following CLI command to achieve the same result:
+
+```
+sudo hostnamectl set-hostname <name>
+```
+
+Whichever method is used to update the hostname file, next edit the /etc/hosts file:
 
 ```
  sudo nano /etc/hosts
@@ -78,7 +84,7 @@ sudo dpkg-reconfigure tzdata
 
 ## How do I connect my WLAN Pi to my wireless network?
 
-Assuming your network uses a PSK, simply edit the follwing files:
+Assuming your network uses a PSK, simply edit the following files:
 
 - /etc/network/interfaces
 - /etc/wpa_supplicant/wpa_supplicant.conf
@@ -132,7 +138,7 @@ CTRL-x
 ```
 Enter your SSID and PSK in the areas indicated in the file. 
 
-Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to tke effect.
+Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to take effect.
 
 (For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)
 
@@ -140,9 +146,9 @@ Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the
 
 Up to image version (but not including) v1.9, the only WLAN chipset supported was the Realtek 8812au. The Comfast CF-912AC was the only adapter that had been tested to provide support for all WLAN Pi features.
 
-From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varing degrees and an alternative adapter may meet your needs. The [testing results][adapter_sheet] showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: [link][adapter_sheet]
+From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varying degrees and an alternative adapter may meet your needs. The [testing results][adapter_sheet] showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: [link][adapter_sheet]
 
-(In a future verison of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)
+(In a future version of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)
 
 ## Where can I get help support with my WLAN Pi?
 
