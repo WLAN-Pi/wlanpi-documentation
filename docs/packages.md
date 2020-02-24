@@ -10,7 +10,7 @@ An overview of each of these packages is provided in this section.
 - Perf Measurement
     - HTML Speedtest
     - iPerf
-    - Ruckus Zap
+    - [Ruckus Zap][zap]
     - Ookla Speedtest
 - Analysis
     - Kismet
@@ -29,5 +29,6 @@ An overview of each of these packages is provided in this section.
 [termshark]: pkg_analysis_termshark.md
 [hotspot]: pkg_util_hotspot.md
 [extcap]: pkg_analysis_extcap.md
+[zap]: pkg_perf_zap.md
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
