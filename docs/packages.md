@@ -14,7 +14,7 @@ An overview of each of these packages is provided in this section.
     - Ookla Speedtest
 - Analysis
     - Kismet
-    - Horst
+    - [Horst][horst]
     - Scapy
     - Tcpdump
     - [Termshark][termshark]
@@ -30,5 +30,6 @@ An overview of each of these packages is provided in this section.
 [hotspot]: pkg_util_hotspot.md
 [extcap]: pkg_analysis_extcap.md
 [zap]: pkg_perf_zap.md
+[horst]: pkg_analysis_horst.md
 
 <small><br><i>Page last updated: {{ git_revision_date }} </i></small>
