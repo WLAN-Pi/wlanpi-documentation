@@ -47,7 +47,7 @@ Lastly horst is a poor man’s spectrum analyzer, which will allow you to see so
 
 horst is another application that hasn’t been updated in some time and may have some bugs or may not work with the latest hardware. 
 
-More info can be found in the man page or at https://github.com/br101/horst
+More info can be found in the man page or at [https://github.com/br101/horst]
 
 
 <!-- Link list -->
