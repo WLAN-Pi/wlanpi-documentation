@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # Getting Involved - Feature Requests
 
-Once you've bene using the WLAN Pi for a while, you'll probably start to think: "wouldn't it be great if the WLAN Pi could do xyz?", or: "wouldn't it be great if package x were available on the WLAN Pi?"
+Once you've been using the WLAN Pi for a while, you'll probably start to think: *"wouldn't it be great if the WLAN Pi could do xyz?"*, or: *"wouldn't it be great if package x were available on the WLAN Pi?"*
 
 If you have any suggestions that you think are worthy of consideration, then please open a feature request on GitHub. It will be considered for addition to our roadmap. If you're have some coding skills, it may even be worth offering to code it yourself and maybe pull together some proof of concept code.
 
