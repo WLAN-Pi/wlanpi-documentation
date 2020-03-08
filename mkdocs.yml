@@ -27,6 +27,10 @@ nav:
     - News: news.md
     - Support: support.md
     - Getting Involved: get_involved.md
+        - Coding for the WLAN Pi: get_involved_coding.md
+        - Non-coder Contribution Opportunties: get_involved_non_coding.md
+        - Bug Reports: get_involved_bugs.md
+        - Feature Suggestions: get_involved_requests.md
     - Useful Links: useful_links.md
 theme:
     name: 'material'
