@@ -12,6 +12,3 @@ If you'd like to be involved, please contact [Jerry Olla][jerry_twitter] or [Nig
 <!-- link list -->
 [nigel_twitter]: https://twitter.com/wifinigel
 [jerry_twitter]: https://twitter.com/jolla
-
-
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

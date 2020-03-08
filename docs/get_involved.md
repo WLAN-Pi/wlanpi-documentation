@@ -21,6 +21,3 @@ If you'd like to be involved, please contact [Jerry Olla][jerry_twitter] or [Nig
 [non-coding]: get_involved_non_coding.md
 [bugs]: get_involved_bugs.md
 [features]: get_involved_requests.md
-
-
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

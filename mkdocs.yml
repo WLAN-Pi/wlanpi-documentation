@@ -22,12 +22,12 @@ nav:
             - Wi-Fi Console: pkg_util_wconsole.md
             - Hotspot Mode: pkg_util_hotspot.md
             - Wiperf: pkg_util_wiperf.md
-    - Suppliers: suppliers.md
+            - Suppliers: suppliers.md
     - FAQ: faq.md
     - News: news.md
     - Support: support.md
     - Getting Involved:
-        - Overview:
+        - Overview: get_involved.md
         - Coding for the WLAN Pi: get_involved_coding.md
         - Non-coder Contribution Opportunties: get_involved_non_coding.md
         - Bug Reports: get_involved_bugs.md
@@ -39,5 +39,4 @@ theme:
         icon: wifi
 plugins:
     - search
-    - git-revision-date
-
+    - git-revision-date-localized

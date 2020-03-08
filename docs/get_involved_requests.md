@@ -25,6 +25,3 @@ Once you have submitted the request, an email alert will be generated to a team 
 <!-- link list -->
 [nigel_twitter]: https://twitter.com/wifinigel
 [jerry_twitter]: https://twitter.com/jolla
-
-
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

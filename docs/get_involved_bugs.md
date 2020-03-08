@@ -26,6 +26,3 @@ Once you have submitted the bug, an email alert will be generated to a team of p
 <!-- link list -->
 [nigel_twitter]: https://twitter.com/wifinigel
 [jerry_twitter]: https://twitter.com/jolla
-
-
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

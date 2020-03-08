@@ -13,12 +13,13 @@ Workflow:
 
 1. Setup your environment
     a. Install Python 3 on your local machine (https://www.python.org/downloads/)
-    b. Upgrade pip: pip install --upgrade pip
+    b. Upgrade pip: python -m pip install --upgrade pip
     c. Install MKDocs: pip install mkdocs
-    d. Install MKDocs revision date plugin: pip install mkdocs-git-revision-date-plugin
-    e. Install Git if you don't already have it: https://git-scm.com/downloads
-    f. Change in to a directory where you wish to clone the repo
-    g. Clone the repo to allow you to work on it locally: https://github.com/WLAN-Pi/wlanpi-documentation.git
+    d. Install 'Material' theme: pip install mkdocs-material
+    e. Install MKDocs revision date plugin: pip install mkdocs-git-revision-date-localized-plugin
+    f. Install Git if you don't already have it: https://git-scm.com/downloads
+    g. Change in to a directory where you wish to clone the repo
+    h. Clone the repo to allow you to work on it locally: https://github.com/WLAN-Pi/wlanpi-documentation.git
 2. Creating or editing docs
     a. Change in to the cloned directory and verify project files exist
     b. Edit files as per the MKDocs guide: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
