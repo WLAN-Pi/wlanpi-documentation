@@ -15,4 +15,3 @@ To find out more about [wiperf][wiperf_project], please visit the main wiperf pr
 [wiperf_project]: https://github.com/wifinigel/wiperf
 
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

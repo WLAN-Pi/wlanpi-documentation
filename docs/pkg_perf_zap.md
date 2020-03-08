@@ -25,5 +25,5 @@ The app is now quite old, so not all settings may work on the latest versions.
 
 <small><i>(Contributed by Ian Stout)</i></small>
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>
+
 

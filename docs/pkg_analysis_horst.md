@@ -54,4 +54,3 @@ More info can be found in the man page or at [https://github.com/br101/horst](ht
 
 <small><i>(Contributed by Ian Stout)</i></small>
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

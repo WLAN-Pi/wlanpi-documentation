@@ -22,4 +22,3 @@ Authors: Nigel Bowden
 [CF912]: https://amzn.to/2R9niFs
 [CF912_ebay]: https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=comfast+cf-912ac&_sacat=0
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

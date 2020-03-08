@@ -19,4 +19,3 @@ If you're new to the WLAN Pi project, a great place to start is our [Getting Sta
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
 [Getting_Started]: getting_started_overview.md
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

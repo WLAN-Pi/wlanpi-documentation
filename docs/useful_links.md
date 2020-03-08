@@ -19,4 +19,3 @@ Here is a collection of useful articles and resources that may help you on your 
 [wlanpi.com]: http://wlanpi.com/
 [RemoteAccessNAT]: https://thoughts.finimundi.com/remote-access-to-a-device-behind-nat-firewall/
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

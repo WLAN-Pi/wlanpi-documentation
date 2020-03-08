@@ -18,4 +18,4 @@ Another option may be to have a look through [GitHub][GitHub] and see if you can
 [WLANPi]: https://www.twitter.com/WLANPi
 [GitHub]: https://github.com/WLAN-PI
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>
+

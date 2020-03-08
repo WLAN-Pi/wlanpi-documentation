@@ -28,4 +28,3 @@ To access hotspot mode, on the WLAN Pi front panel, select : Menu > Mode > Hotsp
 [semifo-eth]: https://www.semfionetworks.com/blog/wlan-pi-bridge-wi-fi-hotspot-to-ethernet-interface
 
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

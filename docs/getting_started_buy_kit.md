@@ -16,4 +16,3 @@ One of the easiest options is to buy the kit from the [WLPC store][WLPC_Store]. 
 [Build_Own]: getting_started_build_your_own.md
 
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

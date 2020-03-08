@@ -25,4 +25,3 @@ You can find out more about using the application in the [official user guide][t
 [termshark_web_site]: https://termshark.io/
 [termshark_user_guide]: https://github.com/gcla/termshark/blob/master/docs/UserGuide.md
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

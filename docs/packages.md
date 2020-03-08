@@ -32,4 +32,3 @@ An overview of each of these packages is provided in this section.
 [zap]: pkg_perf_zap.md
 [horst]: pkg_analysis_horst.md
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

@@ -28,4 +28,3 @@ Check out the links below for more information:
 [WLPC_Conference]: https://wlanprofessionals.com/
 
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

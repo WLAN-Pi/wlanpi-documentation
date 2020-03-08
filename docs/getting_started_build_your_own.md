@@ -39,4 +39,3 @@ More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
 [Power_Supply]: https://amzn.to/2RzKVG2
 [POE_Splitter]: https://amzn.to/2THvK0j
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

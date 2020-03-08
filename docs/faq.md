@@ -165,4 +165,3 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [adapter_sheet]: https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0
 [suggestions]: https://github.com/WLAN-Pi/wlanpi/issues
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>

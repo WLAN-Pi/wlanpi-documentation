@@ -24,4 +24,3 @@ Checkout these useful links for more information about extcap:
 [extcap-github-mac]: https://github.com/adriangranados/wlan-extcap
 [wifinigel-blog]: https://wifinigel.blogspot.com/2019/11/wireshark-plugin-to-capture-wireless.html
 
-<small><br><i>Page last updated: {{ git_revision_date }} </i></small>
