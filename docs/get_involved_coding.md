@@ -46,7 +46,7 @@ There are a few conventions that are well worth observing when developing or con
     * text eol=lf
     ```
 
-2. Some files need their execution bits set so that they are executable once downloaded to the WLAN Pi. Windows does not natively support the execution bit, so that it is not included when uploading files to GitHub. Please consult this article to ensure execute bits are set when developing on Windows
+2. Some files need their execution bits set so that they are executable once downloaded to the WLAN Pi. Windows does not natively support the execution bit, so that it is not included when uploading files to GitHub. Please consult this article to ensure execute bits are set when developing on Windows: https://medium.com/@akash1233/change-file-permissions-when-working-with-git-repos-on-windows-ea22e34d5cee
 
 ## Final Thoughts
 
