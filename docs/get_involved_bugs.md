@@ -5,7 +5,7 @@ Authors: Nigel Bowden
 
 If you're a WLAN Pi user and you think you spot a bug that we need to know about, please drop us a bug report.
 
-The best method for doing this is to visit the WLAN Pi GitHub site and submit a bug report. If you visit the following page, you will be able to open a new issue:
+The best method for doing this is to visit the WLAN Pi GitHub site and submit a bug report (note that this will require you to create a (free) GitHub account). If you visit the following page, you will be able to open a new issue:
 
 https://github.com/WLAN-Pi/wlanpi/issues
 
