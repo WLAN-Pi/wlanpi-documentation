@@ -11,7 +11,7 @@ If you submit a suggestion, please remember that we are a group of volunteers do
 
 To submit a feature request/suggestion, submit a request via the GitHub issues feature (note that this will require you to create a (free) GitHub account). If you visit the following page, you will be able to open a new request:
 
-https://github.com/WLAN-Pi/wlanpi/issues
+[https://github.com/WLAN-Pi/wlanpi/issues](https://github.com/WLAN-Pi/wlanpi/issues)
 
 If you hit the "New Issue" button, you will be presented with a form where you can enter the feature request details. Please provide as much information as possible about your idea/request. Links to web sites of existing linux or similar packages (if applicable), screen shots and sample code will all help if available.
 
