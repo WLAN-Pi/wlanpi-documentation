@@ -27,7 +27,7 @@ nav:
     - News: news.md
     - Support: support.md
     - Getting Involved:
-        - Overview: get_involved.md
+        - Overview:
         - Coding for the WLAN Pi: get_involved_coding.md
         - Non-coder Contribution Opportunties: get_involved_non_coding.md
         - Bug Reports: get_involved_bugs.md
