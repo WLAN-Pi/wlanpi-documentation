@@ -27,7 +27,7 @@ The development process has evolved as follows:
 4. Development work is usually carried out on a 'dev' branch of the project repo. If others wish to contribute to the code, they may fork the repo and then submit a pull request to the dev branch of the project repo. The project repo owner can then review the code in the pull request before merging it in to the main project repo 
 5. Once the code has reached a point where it is ready to be released as version to be used by others, it is merged in the master branch of the project repo by the repo owner. At this point, a release number is also assigned to the code within GitHub by assigning a release tag - this allows the code at a particular point in time to be retrieved if/when required.
 
-I found the following detailed guide on GitHub which details the process in much more detail and will probably answer most questions you have about the process : https://gist.github.com/Chaser324/ce0505fbed06b947d962
+I found the following detailed guide on GitHub which details the process in much more detail and will probably answer most questions you have about the process : [https://gist.github.com/Chaser324/ce0505fbed06b947d962](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
 The fork and pull request steps that allows contribution by others may seem a little onerous and long-winded. But, this has been done to limit the number of people who have access to the main project repo for purposes of quality control and co-ordination of additions of software to each project.
 

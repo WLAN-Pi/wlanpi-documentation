@@ -37,6 +37,8 @@ theme:
     name: 'material'
     logo:
         icon: wifi
+extra_css:
+  - extra.css
 plugins:
     - search
     - git-revision-date-localized:
