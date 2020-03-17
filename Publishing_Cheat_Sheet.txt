@@ -29,10 +29,12 @@ Workflow:
     e. Push the new docs to the GitHub project page using: mkdocs gh-deploy (see https://www.mkdocs.org/user-guide/deploying-your-docs/)
     f. Check updates all look good at : https://wlan-pi.github.io/wlanpi-documentation/
 
+Here is an excellent guide to using the MKDocs markup: https://github.com/PegaSysEng/doc.pantheon/blob/master/MKDOCS-MARKDOWN-GUIDE.md
 
+The CSS styling file was borrowed from the Pi-Hole project: https://github.com/pi-hole/docs
 
-Markup guide
-============
+Brief Markup Cheatsheet
+========================
 
 Headings:
 ---------
