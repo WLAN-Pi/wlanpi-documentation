@@ -35,8 +35,8 @@ nav:
     - Useful Links: useful_links.md
 theme:
     name: 'material'
-    logo:
-        icon: wifi
+    icon:
+        logo: material/wifi
 extra_css:
   - extra.css
 markdown_extensions:

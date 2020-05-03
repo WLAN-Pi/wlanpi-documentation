@@ -136,9 +136,11 @@ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 <make your changes>
 CTRL-x
 ```
-Enter your SSID and PSK in the areas indicated in the file. 
+Enter your SSID and PSK in the areas indicated in the file. For the new settings to take effect, you have 3 options:
 
-Finally, unplug and replace your USB wireless NIC, or reset your WLAN Pi for the new settings to take effect.
+* Unplug and re-insert your USB wireless NIC
+* Issue the following command on the WLAN Pi CLI : ```sudo ifdown wlan0; sudo ifup wlan0```
+* Reboot your WLAN Pi (remove the power or issue the ```sudo reboot``` command on the CLI) 
 
 (For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)
 

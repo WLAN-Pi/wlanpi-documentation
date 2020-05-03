@@ -25,6 +25,21 @@ It can be useful to get a quick overview of what's going on all wireless LAN cha
 
 horst needs sudo permissions to run, and has a few command line switches, the most notable one to use is –C which allows you to set the channel used, see the man page for a complete listing. 
 
+To launch horst, SSH to your WLAN Pi and issue the following command to launch the terminal UI:
+
+```
+sudo horst
+
+# to launch against an interface other than wlan0:
+sudo horst -i wlan1
+```
+
+To view all horst options, take a look the manual pages for the software using the following CLI command in your SSH session (hit 'q' to quit the man pages):
+
+```
+man horst
+```
+
 After launching the program, pay attention to the bottom left of the program which will allow you to access the different menu options:
 <div style="float: center;">
 ![horst1](images/horst1.png)
