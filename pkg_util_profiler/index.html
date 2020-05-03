@@ -15,7 +15,7 @@
     
     
       
-        <title>Getting involved with the WLANPi project</title>
+        <title>Profiler</title>
       
     
     
@@ -50,7 +50,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-involved-with-the-wlanpi-project" class="md-skip">
+        <a href="#profiler" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Getting involved with the WLANPi project
+              Profiler
             
           </span>
         </div>
@@ -240,10 +240,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       Packages
@@ -433,10 +435,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4" checked>
     
     <label class="md-nav__link" for="nav-4-4">
       Utilities
@@ -494,11 +498,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../pkg_util_profiler/" title="Profiler" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Profiler" class="md-nav__link md-nav__link--active">
       Profiler
     </a>
+    
   </li>
 
         
@@ -564,12 +577,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
     
     <label class="md-nav__link" for="nav-9">
       Getting Involved
@@ -591,20 +602,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Overview" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../get_involved/" title="Overview" class="md-nav__link">
       Overview
     </a>
-    
   </li>
 
         
@@ -704,17 +706,15 @@
                   
                 
                 
-                <h1 id="getting-involved-with-the-wlanpi-project">Getting Involved with the WLANPi Project</h1>
-<p>The WLANPi project is a community effort and we always welcome volunteers to contribute to our efforts. There are opportunities for coding, testing (no coding skills required) and documentation/web site support.</p>
-<p>To find out the different areas where you can help out, take a look at the following pages for more information:</p>
-<ul>
-<li><a href="../get_involved_coding/">Coding for the WLAN Pi</a></li>
-<li><a href="../get_involved_non_coding/">Contributing to development for non-coders</a></li>
-<li><a href="../get_involved_bugs/">Submitting bug reports</a></li>
-<li><a href="../get_involved_requests/">Submitting feature/package suggestions</a></li>
-</ul>
-<p>If you'd like to be involved, please contact <a href="https://twitter.com/jolla">Jerry Olla</a> or <a href="https://twitter.com/wifinigel">Nigel Bowden</a> on Twitter or track them down via any well known search engine.</p>
-<!-- link list -->
+                <h1 id="profiler">Profiler</h1>
+<p>The profiler utility is used to determine the 802.11 capabilities of wireless clients. This information is invaluable when designing a wireless LAN, as client characteristics need to be fully understood for the design process.</p>
+<p>It works by creating a "dummy AP" which broadcasts a test SSID. Clients that need to be profiled then attempt to associated with the test SSID. Although the clients cannot join the SSID, their association frames are captured and analyzed to reveal their characteristics. A textual report for each client is created and stored on the WLAN Pi - this may be accessed via the WLAN Pi web GUI.</p>
+<p>A demonstration of using the profiler is shown in the video below by Jeff Nyman:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SVjCwcrxUPU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>You can go direct to the video on <a href="https://youtu.be/SVjCwcrxUPU">YouTube</a> using this <a href="https://youtu.be/SVjCwcrxUPU">link</a>.</p>
+<p>Visit the <a href="https://github.com/WLAN-Pi/profiler">profiler GitHub site</a> for more details.</p>
+<!-- Link list -->
                 
                   
                     
@@ -723,7 +723,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: March 8, 2020
+      Last update: May 3, 2020
     
   </small>
 </div>
@@ -746,7 +746,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../support/" title="Support" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../pkg_util_wiperf/" title="Wiperf" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -755,19 +755,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Support
+                Wiperf
               </div>
             </div>
           </a>
         
         
-          <a href="../get_involved_coding/" title="Coding for the WLAN Pi" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../suppliers/" title="Suppliers" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Coding for the WLAN Pi
+                Suppliers
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
