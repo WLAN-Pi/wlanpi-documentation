@@ -27,6 +27,8 @@ Check out the links below for more information:
 - [Buying a Kit][Buy_Kit]
 - [Build Your Own From Scratch][Build_Own]
 
+**Looking for supported wireless adapter types? [Check here][Supported_Adapters]**
+
 
 <!-- Link list -->
 [Buy_Kit]: getting_started_buy_kit.md
@@ -34,5 +36,6 @@ Check out the links below for more information:
 [WLPC_Store]: http://www.wlanpros.com/product-category/store/
 [WLPC_Conference]: https://wlanprofessionals.com/
 [User_Guide]: https://docs.google.com/document/d/13W31uoOfefEJIlWu1m7gt5pFws8YSt_xcbRZt2hidQA/edit#
+[Supported_Adapters]: faq#which-wireless-adapters-are-supported-on-the-wlan-pi
 
 
