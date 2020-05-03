@@ -37,11 +37,11 @@ theme:
     name: 'material'
     icon:
         logo: material/wifi
+    language: en
 extra_css:
   - extra.css
 markdown_extensions:
   - admonition
 plugins:
     - search
-    - git-revision-date-localized:
-        type: datetime
+    - git-revision-date-localized
