@@ -15,11 +15,14 @@ This site has been created to provide supporting documentation to the project, t
 
 On this site we will provide information to enable you to buy or build your own WLAN Pi, detail the packages available on the current WLAN Pi image and provide update information about the WLAN Pi project.
 
-If you're new to the WLAN Pi project, a great place to start is our [Getting Started][Getting_Started] page.
+!!! info
+    If you're new to the WLAN Pi project, a great place to start is our [Getting Started][Getting_Started] page.
 
-Got a
+!!! attention
+    Check out common queries in our [FAQ section][FAQ]
 
 <!-- Link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
 [Getting_Started]: getting_started_overview.md
+[FAQ]: faq.md
 

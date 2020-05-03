@@ -22,7 +22,8 @@ nav:
             - Wi-Fi Console: pkg_util_wconsole.md
             - Hotspot Mode: pkg_util_hotspot.md
             - Wiperf: pkg_util_wiperf.md
-            - Suppliers: suppliers.md
+            - Profiler: pkg_util_profiler.md
+    - Suppliers: suppliers.md
     - FAQ: faq.md
     - News: news.md
     - Support: support.md

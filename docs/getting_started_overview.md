@@ -9,7 +9,8 @@ Authors: Nigel Bowden
 ## User Guide
 If you have your WLAN Pi hardware and you'd like to find out what you can do with your WLAN Pi, you can check out this [user guide][User_Guide]. This guide is a couple of years old now, but has some great information providing you with more background to the WLAN Pi and will get you going with some of its great utilities.
 
-- [User Guide][User_Guide]
+!!! info
+    [User Guide][User_Guide]
 
 ## Hardware
 To get started with the WLAN Pi, you're going to need to get hold of some WLAN Pi hardware. The items you'll need are all generally low cost and relatively easy to source. There are a few options available to get yourself set up with a WLAN Pi:
@@ -27,7 +28,9 @@ Check out the links below for more information:
 - [Buying a Kit][Buy_Kit]
 - [Build Your Own From Scratch][Build_Own]
 
-**Looking for supported wireless adapter types? [Check here][Supported_Adapters]**
+
+!!! note
+    Looking for supported wireless adapter types? [Check here][Supported_Adapters]
 
 
 <!-- Link list -->

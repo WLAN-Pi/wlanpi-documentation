@@ -22,6 +22,7 @@ An overview of each of these packages is provided in this section.
 - Uilities
     - [Wi-Fi Console][wifi_console]
     - [Hotspot Mode][hotspot]
+    = [Profiler][profiler]
 
 
 <!-- Link list -->
@@ -31,4 +32,5 @@ An overview of each of these packages is provided in this section.
 [extcap]: pkg_analysis_extcap.md
 [zap]: pkg_perf_zap.md
 [horst]: pkg_analysis_horst.md
+[profiler]: pkg_util_profiler.md
 
