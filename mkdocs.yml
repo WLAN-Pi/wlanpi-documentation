@@ -23,6 +23,7 @@ nav:
             - Hotspot Mode: pkg_util_hotspot.md
             - Wiperf: pkg_util_wiperf.md
             - Profiler: pkg_util_profiler.md
+    - Videos: videos.md
     - Suppliers: suppliers.md
     - FAQ: faq.md
     - News: news.md
