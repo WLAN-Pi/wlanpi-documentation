@@ -3,6 +3,20 @@ Authors: Nigel Bowden
 
 # News
 
+## Availability of the NEO2 Device
+
+**10th May 2020**
+
+It appears that the company who produce the NEO2 device, which is the platform on which the WAN Pi is currently built, may not be able to continue its production due to component availability issues. We understand that they are hoping to have prototypes of a replacement device during May 2020, but it looks like the NEO2 is no more.
+
+We will be assessing the new device as well as looking at possible alternatives for the WLAN Pi project hardware going forwards.
+
+There are still quite a few ready-built WLAN Pi's available from the [WLAN Pros Store](http://www.wlanpros.com/product-category/store/) and [BadgerFi](http://badgerwifi.co.uk/store) in the UK. 
+
+We'll still be developing for the existing platform going forwards, so the existing NEO2 platform still has very significant mileage left going forwards. The current form factor, performance and power consumption make it a **very** difficult act to follow, so you might like to consider getting your NEO2-based WLAN Pi while stocks last. 
+
+More details to follow as we get more information....stay tuned.
+
 ## How to check client DFS channel support
 
 **14th February 2020**

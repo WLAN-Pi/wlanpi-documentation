@@ -6,10 +6,11 @@ Authors: Nigel Bowden
 ## Complete Kit Suppliers
 
 - [Wireless LAN Pros store][WLPC_Store]
+- [BadgerFi (UK/Europe)][Nick_UK]
 
 ## NEO2 Suppliers
 
-- [FriendlyArm NEO2 Kit][NEO2]
+- [FriendlyArm NEO2 Kit][NEO2] (Note: As of April 2020, we understand that FriendlyArm are no longer producing the NEO2 due to component supply issues. We awaiting details of a replacement device that we can use going forwards)
 
 ## Comfast CF-912
 
@@ -21,4 +22,4 @@ Authors: Nigel Bowden
 [NEO2]: https://www.friendlyarm.com/index.php?route=product/product&product_id=189
 [CF912]: https://amzn.to/2R9niFs
 [CF912_ebay]: https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=comfast+cf-912ac&_sacat=0
-
+[Nick_UK]: http://badgerwifi.co.uk/store
