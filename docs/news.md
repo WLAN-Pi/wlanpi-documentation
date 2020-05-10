@@ -9,7 +9,7 @@ Authors: Nigel Bowden
 
 It appears that the company who produce the NEO2 device, which is the platform on which the WAN Pi is currently built, may not be able to continue its production due to component availability issues. We understand that they are hoping to have prototypes of a replacement device during May 2020, but it looks like the NEO2 is no more.
 
-We will be assessing the new device as well as looking at possible alternatives for the WLAN Pi project hardware going forwards.
+We will be assessing the new device when it becomes available,  as well as looking at possible alternatives for the WLAN Pi project hardware going forwards.
 
 There are still quite a few ready-built WLAN Pi's available from the [WLAN Pros Store](http://www.wlanpros.com/product-category/store/) and [BadgerFi](http://badgerwifi.co.uk/store) in the UK. 
 
