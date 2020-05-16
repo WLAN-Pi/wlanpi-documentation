@@ -719,11 +719,13 @@
                 
                 
                 <h1 id="iperf">iperf</h1>
-<p>iperf  is a tool for performing network throughput measurements.  It can test either TCP or UDP throughput.  To perform an iperf test the user must establish both a server (to discard traffic) and a client (to generate traffic).</p>
+<p>iperf  is a tool for performing network throughput measurements.  It can test either TCP or UDP throughput.  To perform an iperf test the user must establish both a server (to receive traffic) and a client (to generate traffic).</p>
 <p>The WLAN Pi has iperf2 and iperf3 servers running upon start-up, these servers are using the default options for each version. </p>
-<p>For reference iperf uses the following ports:
-Iperf2 - 5001
-Iperf3 - 5201</p>
+<p>For reference, iperf uses the following ports:</p>
+<pre><code>iperf2 - 5001
+iperf3 - 5201
+</code></pre>
+
 <p>Iperf3 is a rewrite of iperf from scratch to create a smaller, simpler code base. Iperf3 is not backwards compatible with iperf2.</p>
 <h1 id="usage">Usage</h1>
 <p>To view all iperf options, take a look the manual pages for the software using the following CLI command in your SSH session (hit 'q' to quit the man pages) or use the -h or --help flag for listing of the commands:</p>
@@ -742,13 +744,14 @@ iperf3 -c &lt;server_ip&gt;
 </code></pre>
 
 <p><img alt="iperf" src="../images/iperf_basic_throughput.png" /></p>
-<h2 id="displaying-data-formatted-in-different-sizes">Displaying data formatted in different sizes.</h2>
+<h2 id="displaying-data-formatted-in-different-units">Displaying data formatted in different units.</h2>
+<p>The units that in which results are displayed (i.e. Kilobits per sec, Megabits per sec etc.) may be modified using the following command attributes:</p>
 <pre><code>iperf -c &lt;server_ip&gt;  -f (b, B, k, K, m, M, g, G, t, T)
 iperf3 -c &lt;server_ip&gt;  -f (b, B, k, K, m, M, g, G, t, T)
 </code></pre>
 
 <p><img alt="iperf" src="../images/iperf_data_format.png" /></p>
-<h2 id="iperf-from-server-to-client-or-bi-directional">iperf from server to client or bi-directional</h2>
+<h2 id="iperf-from-server-to-client-reverse-direction-test-or-bi-directional-test">iperf from server to client (reverse direction test) or bi-directional test</h2>
 <pre><code>iperf -c &lt;server_ip&gt;  -r -d
 </code></pre>
 
@@ -764,11 +767,10 @@ iperf3 -c &lt;server_ip&gt; -u
 
 <p><img alt="iperf" src="../images/iperf_udp.png" /></p>
 <h1 id="references">References</h1>
-<ul>
-<li><a href="https://iperf.fr/">iperf home page</a></li>
-<li><a href="https://youtu.be/nZOtocu12hw">iPerf2 vs iPerf3 | Panos Vouzis | WLPC Phoenix 2020</a></li>
-<li><a href="https://youtu.be/pC4oQQ8gfZs">It's not the Network | Panos Vouzis | WLPC Phoenix 2018</a></li>
-</ul>
+<p>The following references may be useful for futher information about iperf:
+* <a href="https://iperf.fr/">iperf home page</a>
+* <a href="https://youtu.be/nZOtocu12hw">iPerf2 vs iPerf3 | Panos Vouzis | WLPC Phoenix 2020</a>
+* <a href="https://youtu.be/pC4oQQ8gfZs">It's not the Network | Panos Vouzis | WLPC Phoenix 2018</a></p>
 <!-- Link list -->
 
 <p><small><i>(Contributed by Ian Stout)</i></small></p>
