@@ -719,7 +719,58 @@
                 
                 
                 <h1 id="iperf">iperf</h1>
-<p>TBA</p>
+<p>iperf  is a tool for performing network throughput measurements.  It can test either TCP or UDP throughput.  To perform an iperf test the user must establish both a server (to discard traffic) and a client (to generate traffic).</p>
+<p>The WLANpi has iperf2 and iperf3 servers running upon start-up, these servers are using the default options for each version. </p>
+<p>For reference iperf uses the following ports:
+Iperf2 - 5001
+Iperf3 - 5201</p>
+<p>Iperf3 is a rewrite of iperf from scratch to create a smaller, simpler code base. Iperf3 is not backwards compatible with iperf2.</p>
+<h1 id="usage">Usage</h1>
+<p>To view all iperf options, take a look the manual pages for the software using the following CLI command in your SSH session (hit 'q' to quit the man pages) or use the -h or --help flag for listing of the commands:
+man iperf / iperf3
+iperf / iperf3 -h</p>
+<h1 id="examples">Examples</h1>
+<h2 id="basic-throughput-test">Basic throughput test</h2>
+<pre><code>iperf -c &lt;serverIP&gt; 
+iperf3 -c &lt;serverIP&gt; 
+</code></pre>
+
+<div style="float: center;">
+![iperf](images/iperf_basic_throughput.PNG)
+</div>
+
+<h2 id="displaying-data-formatted-in-different-sizes">Displaying data formatted in different sizes.</h2>
+<pre><code>iperf/iperf3 -c serverIP  -f (b, B, k, K, m, M, g, G, t, T)
+</code></pre>
+
+<div style="float: center;">
+![iperf](images/iperf_data_format.png)
+</div>
+
+<h2 id="iperf-from-server-to-client-or-bi-directional">iperf from server to client or bi-directional</h2>
+<pre><code>iperf -c serverIP  -r -d
+</code></pre>
+
+<p>(iperf bi-directional.PNG)</p>
+<p>iperf3 -c serverIP  -R or iperf3 -c serverIP  --bidir</p>
+<div style="float: center;">
+![iperf](images/iperf3_bi-directional.png)
+</div>
+
+<h2 id="iperf-using-udp">iperf using udp</h2>
+<pre><code>iperf/iperf3 -c serverIP -u
+</code></pre>
+
+<div style="float: center;">
+![iperf](images/iperf_udp.png)
+</div>
+
+<h1 id="references">References</h1>
+<ul>
+<li><a href="https://iperf.fr/">iperf home page</a></li>
+<li><a href="https://youtu.be/nZOtocu12hw">iPerf2 vs iPerf3 | Panos Vouzis | WLPC Phoenix 2020</a></li>
+</ul>
+<!-- Link list -->
                 
                   
                     
@@ -728,7 +779,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: March 8, 2020
+      Last update: May 16, 2020
     
   </small>
 </div>
