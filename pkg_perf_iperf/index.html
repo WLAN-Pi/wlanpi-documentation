@@ -720,15 +720,17 @@
                 
                 <h1 id="iperf">iperf</h1>
 <p>iperf  is a tool for performing network throughput measurements.  It can test either TCP or UDP throughput.  To perform an iperf test the user must establish both a server (to discard traffic) and a client (to generate traffic).</p>
-<p>The WLANpi has iperf2 and iperf3 servers running upon start-up, these servers are using the default options for each version. </p>
+<p>The WLAN Pi has iperf2 and iperf3 servers running upon start-up, these servers are using the default options for each version. </p>
 <p>For reference iperf uses the following ports:
 Iperf2 - 5001
 Iperf3 - 5201</p>
 <p>Iperf3 is a rewrite of iperf from scratch to create a smaller, simpler code base. Iperf3 is not backwards compatible with iperf2.</p>
 <h1 id="usage">Usage</h1>
-<p>To view all iperf options, take a look the manual pages for the software using the following CLI command in your SSH session (hit 'q' to quit the man pages) or use the -h or --help flag for listing of the commands:
-man iperf / iperf3
-iperf / iperf3 -h</p>
+<p>To view all iperf options, take a look the manual pages for the software using the following CLI command in your SSH session (hit 'q' to quit the man pages) or use the -h or --help flag for listing of the commands:</p>
+<pre><code>man iperf / iperf3
+iperf / iperf3 -h
+</code></pre>
+
 <h1 id="examples">Examples</h1>
 <h2 id="basic-throughput-test">Basic throughput test</h2>
 <pre><code>iperf -c &lt;serverIP&gt; 
