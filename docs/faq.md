@@ -73,7 +73,6 @@ Finally, reboot your WLAN Pi:
 ```
 
 
-
 ## How do I set the timezone on my WLAN Pi?
 
 From the CLI of your WLAN Pi:
@@ -144,7 +143,22 @@ Enter your SSID and PSK in the areas indicated in the file. For the new settings
 
 (For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)
 
-## Which wireless adapters are supported on the WLAN Pi
+## I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?
+
+The WLAN Pi has a very useful feature that allows you to connect your Mac or Window machine to a WAN Pi via a USB connection. This is effectively an Ethernet over USB connection, also known as an OTG connection (On The Go).
+
+This requires a USB to micro-USB cable to hook up your laptop/Mac to the micro-USB socket on the WLAN Pi (which is also used to power the WLAN Pi).
+
+This is very cool as it both powers up your WLAN Pi and gives you a local network connection to the WLAN Pi so that you can SSH or browse in to it.
+
+There are two main issues we have seen with connectivity over the OTG connection:
+
+1. Some cables that look like an OTG cable (i.e. a regular USB plug on one end and a micro-USB on the other) are, in fact, just phone charger cables and only have the power wires through. This means there are no data wires and you can never establish the OTG connection. The WLAN Pi will power up, but the OTG connection will not work. (You can check if you have an OTG connection by looking at the network interfaces on your laptop/Mac - if OTG is working, a new Ethernet port automagically appears.) 
+If you hit this issue, try another cable (or two)
+
+2. The second issue we hear about impacts Windows users. Please check out this super blog post if you have a Windows laptop and you think your cable is good: [Blog Post Link][Win10_Host_Issue]
+
+## Which wireless adapters are supported on the WLAN Pi ?
 
 Up to image version (but not including) v1.9, the only WLAN chipset supported was the Realtek 8812au. The Comfast CF-912AC was the only adapter that had been tested to provide support for all WLAN Pi features.
 
@@ -166,4 +180,5 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [burn_image]: https://youtu.be/sD4WlNyyWDs
 [adapter_sheet]: https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0
 [suggestions]: https://github.com/WLAN-Pi/wlanpi/issues
+[Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.html
 

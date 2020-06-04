@@ -72,7 +72,7 @@ In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fi
 
 
 <!-- Link list -->
-[Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.htm
+[Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.html
 [Ver_184beta]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.8.4_beta
 [Ver_190]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.9.0
 [blog_syslog]: https://thewlan.com.au/2019/11/14/wlanpi-as-a-syslog-server/
