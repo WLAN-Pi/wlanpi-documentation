@@ -646,8 +646,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#im-having-difficult-getting-a-connection-over-the-usb-link-to-my-wlan-pi-whats-going-on" class="md-nav__link">
+    I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#which-wireless-adapters-are-supported-on-the-wlan-pi" class="md-nav__link">
-    Which wireless adapters are supported on the WLAN Pi
+    Which wireless adapters are supported on the WLAN Pi ?
   </a>
   
 </li>
@@ -894,8 +901,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#im-having-difficult-getting-a-connection-over-the-usb-link-to-my-wlan-pi-whats-going-on" class="md-nav__link">
+    I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#which-wireless-adapters-are-supported-on-the-wlan-pi" class="md-nav__link">
-    Which wireless adapters are supported on the WLAN Pi
+    Which wireless adapters are supported on the WLAN Pi ?
   </a>
   
 </li>
@@ -1029,7 +1043,21 @@ CTRL-x
 <li>Reboot your WLAN Pi (remove the power or issue the <code>sudo reboot</code> command on the CLI) </li>
 </ul>
 <p>(For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)</p>
-<h2 id="which-wireless-adapters-are-supported-on-the-wlan-pi">Which wireless adapters are supported on the WLAN Pi</h2>
+<h2 id="im-having-difficult-getting-a-connection-over-the-usb-link-to-my-wlan-pi-whats-going-on">I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?</h2>
+<p>The WLAN Pi has a very useful feature that allows you to connect your Mac or Window machine to a WAN Pi via a USB connection. This is effectively an Ethernet over USB connection, also known as an OTG connection (On The Go).</p>
+<p>This requires a USB to micro-USB cable to hook up your laptop/Mac to the micro-USB socket on the WLAN Pi (which is also used to power the WLAN Pi).</p>
+<p>This is very cool as it both powers up your WLAN Pi and gives you a local network connection to the WLAN Pi so that you can SSH or browse in to it.</p>
+<p>There are two main issues we have seen with connectivity over the OTG connection:</p>
+<ol>
+<li>
+<p>Some cables that look like an OTG cable (i.e. a regular USB plug on one end and a micro-USB on the other) are, in fact, just phone charger cables and only have the power wires through. This means there are no data wires and you can never establish the OTG connection. The WLAN Pi will power up, but the OTG connection will not work. (You can check if you have an OTG connection by looking at the network interfaces on your laptop/Mac - if OTG is working, a new Ethernet port automagically appears.) 
+If you hit this issue, try another cable (or two)</p>
+</li>
+<li>
+<p>The second issue we hear about impacts Windows users. Please check out this super blog post if you have a Windows laptop and you think your cable is good: <a href="https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.html">Blog Post Link</a></p>
+</li>
+</ol>
+<h2 id="which-wireless-adapters-are-supported-on-the-wlan-pi">Which wireless adapters are supported on the WLAN Pi ?</h2>
 <p>Up to image version (but not including) v1.9, the only WLAN chipset supported was the Realtek 8812au. The Comfast CF-912AC was the only adapter that had been tested to provide support for all WLAN Pi features.</p>
 <p>From v1.9 onwards, support for the Realtek 8812au chipset continued, but a driver for the MediaTek mt7610u chipset was also added. Testing was performed with a wide range of adapters using both chipsets. The range of features supported varied quite widely and the CF-912AC is still the only adapter that supports all features. However, other adapters do work to varying degrees and an alternative adapter may meet your needs. The <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">testing results</a> showing the adapters tested and the WLAN Pi features that work with each one are shown in this sheet: <a href="https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0">link</a></p>
 <p>(In a future version of the WLAN Pi image, there will be far more extensive support of features for MediaTek adapters that will be provided by a kernel update within the image.)</p>
@@ -1046,7 +1074,7 @@ CTRL-x
 <div class="md-source-date">
   <small>
     
-      Last update: May 3, 2020
+      Last update: June 4, 2020
     
   </small>
 </div>
