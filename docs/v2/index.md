@@ -7,9 +7,9 @@ Authors: Nigel Bowden
 </div>
 **Welcome to home of the new WLAN Pi v2 documentation site.**
 
-The WLAN Pi community team has bene working hard behind the scenes over the last few months to bring you the next generation of of the WLAN Pi. 
+The WLAN Pi community team has been working hard behind the scenes over the last few months to bring you the next generation of of the WLAN Pi. 
 
-In the very near future we're going to be release v2 of the WLAN Pi with lot of enhancements to make your favorite WLAN box of trick even better. 
+In the very near future we're going to be release v2 of the WLAN Pi with lot of enhancements to make your favourite WLAN box of tricks even better. 
 
 Stay up to date by checking us out on [Twitter][twitter].
 
