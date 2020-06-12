@@ -23,7 +23,7 @@ Workflow:
 2. Creating or editing docs
     a. Change in to the cloned directory and verify project files exist
     b. Edit files as per the MKDocs guide: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
-    c. Run the local mkdocs server: mkdocs serve
+    c. Run the local mkdocs server: mkdocs serve  --dev-addr=0.0.0.0:8081
     c. Once editing is complete, build the site : mkdocs build
     d. Commit & push files from local Git instance (git add, git commit -m, git push)
     e. Push the new docs to the GitHub project page using: mkdocs gh-deploy (see https://www.mkdocs.org/user-guide/deploying-your-docs/)
