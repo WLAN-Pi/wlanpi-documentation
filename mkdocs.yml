@@ -38,6 +38,36 @@ nav:
         - Useful Links: useful_links.md
     - V2: 
         - Home: v2/index.md
+        - About: about.md
+        - Getting Started:
+            - Overview: getting_started_overview.md
+            - Buy a Kit: getting_started_buy_kit.md
+            - Build Your Own: getting_started_build_your_own.md
+        - Packages: 
+            - Overview: packages.md
+            - Perf Measurement:
+                - HTML Speedtest: pkg_perf_speedtest.md
+                - iPerf: pkg_perf_iperf.md
+            - Analysis:
+                - Scapy: pkg_analysis_scapy.md
+                - extcap: pkg_analysis_extcap.md
+            - Utilities:
+                - Wi-Fi Console: pkg_util_wconsole.md
+                - Hotspot Mode: pkg_util_hotspot.md
+                - Wiperf: pkg_util_wiperf.md
+                - Profiler: v2/pkg_util_profiler.md
+        - Videos: videos.md
+        - Suppliers: suppliers.md
+        - FAQ: v2/faq.md
+        - News: news.md
+        - Support: support.md
+        - Getting Involved:
+            - Overview: get_involved.md
+            - Coding for the WLAN Pi: get_involved_coding.md
+            - Non-coder Contribution Opportunties: get_involved_non_coding.md
+            - Bug Reports: get_involved_bugs.md
+            - Feature Suggestions: get_involved_requests.md
+        - Useful Links: useful_links.md
 theme:
     name: 'material'
     icon:
