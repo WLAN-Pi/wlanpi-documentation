@@ -138,7 +138,7 @@
   
     <li class="md-tabs__item">
       
-        <a href=".." class="md-tabs__link">
+        <a href=".." class="md-tabs__link md-tabs__link--active">
           V1
         </a>
       
@@ -151,7 +151,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../v2/" class="md-tabs__link md-tabs__link--active">
+        <a href="../v2/" class="md-tabs__link">
           V2
         </a>
       
@@ -188,10 +188,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
     
     <label class="md-nav__link" for="nav-1">
       V1
@@ -603,8 +605,10 @@
           
           
 
+  
 
-  <li class="md-nav__item">
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
@@ -876,12 +880,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       V2
@@ -1245,143 +1247,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        FAQ
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="FAQ" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../v2/faq/" title="FAQ" class="md-nav__link">
       FAQ
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#where-can-i-get-the-latest-wlan-pi-image" class="md-nav__link">
-    Where can I get the latest WLAN Pi image?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-find-which-image-version-is-currently-installed-on-my-wlan" class="md-nav__link">
-    How do I find which image version is currently installed on my WLAN?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-burn-a-wlan-pi-image" class="md-nav__link">
-    How do I burn a WLAN Pi image?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-change-the-password-for-the-wlanpi-user" class="md-nav__link">
-    How do I change the password for the wlanpi user
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-change-the-hostname-of-my-wlan-pi" class="md-nav__link">
-    How do I change the hostname of my WLAN Pi
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-set-the-timezone-on-my-wlan-pi" class="md-nav__link">
-    How do I set the timezone on my WLAN Pi?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-connect-my-wlan-pi-to-my-wireless-network" class="md-nav__link">
-    How do I connect my WLAN Pi to my wireless network?
-  </a>
-  
-    <nav class="md-nav" aria-label="How do I connect my WLAN Pi to my wireless network?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#etcnetworkinterfaces" class="md-nav__link">
-    /etc/network/interfaces
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#etcwpa_supplicantwpa_supplicantconf" class="md-nav__link">
-    /etc/wpa_supplicant/wpa_supplicant.conf
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#im-having-difficult-getting-a-connection-over-the-usb-link-to-my-wlan-pi-whats-going-on" class="md-nav__link">
-    I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#which-wireless-adapters-are-supported-on-the-wlan-pi" class="md-nav__link">
-    Which wireless adapters are supported on the WLAN Pi ?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#where-can-i-get-help-support-with-my-wlan-pi" class="md-nav__link">
-    Where can I get help support with my WLAN Pi?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-do-i-suggest-a-new-feature-for-the-wlan-pi" class="md-nav__link">
-    How do I suggest a new feature for the WLAN Pi?
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
