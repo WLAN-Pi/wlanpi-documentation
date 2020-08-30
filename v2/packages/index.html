@@ -15,7 +15,7 @@
     
     
       
-        <title>Profiler</title>
+        <title>Software packages available in the WLANPi</title>
       
     
     
@@ -50,7 +50,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#profiler" class="md-skip">
+        <a href="#packages" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Profiler
+              Software packages available in the WLANPi
             
           </span>
         </div>
@@ -890,11 +890,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../packages/" title="Overview" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="Overview" class="md-nav__link md-nav__link--active">
       Overview
     </a>
+    
   </li>
 
         
@@ -1010,12 +1019,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-4" type="checkbox" id="nav-2-4-4" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4-4" type="checkbox" id="nav-2-4-4">
     
     <label class="md-nav__link" for="nav-2-4-4">
       Utilities
@@ -1073,20 +1080,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Profiler" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../pkg_util_profiler/" title="Profiler" class="md-nav__link">
       Profiler
     </a>
-    
   </li>
 
         
@@ -1298,10 +1296,31 @@
                   
                 
                 
-                <h1 id="profiler">Profiler</h1>
-<p>The profiler utility is used to determine the 802.11 capabilities of wireless clients. This information is invaluable when designing a wireless LAN, as client characteristics need to be fully understood for the design process.</p>
-<p>It works by creating a "dummy AP" which broadcasts a test SSID. Clients that need to be profiled then attempt to associated with the test SSID. Although the clients cannot join the SSID, their association frames are captured and analyzed to reveal their characteristics. A textual report for each client is created and stored on the WLAN Pi - this may be accessed via the WLAN Pi web GUI.</p>
-<p>TBA - New information pending for V2.x.x image</p>
+                <h1 id="packages">Packages</h1>
+<p>The WLANPi image is supplied with a number of useful networking programs, utilities and scripts to help the WLAN professional out in the field.</p>
+<p>An overview of each of these packages is provided in this section.</p>
+<ul>
+<li>Perf Measurement<ul>
+<li>HTML Speedtest</li>
+<li>iPerf</li>
+<li>Ookla Speedtest</li>
+</ul>
+</li>
+<li>Analysis<ul>
+<li>Scapy</li>
+<li>Tcpdump</li>
+<li><a href="/v1/pkg_analysis_extcap.md">extcap</a></li>
+</ul>
+</li>
+<li>Uilities<ul>
+<li><a href="/v1/pkg_util_wconsole.md">Wi-Fi Console</a></li>
+<li><a href="/v1/pkg_util_hotspot.md">Hotspot Mode</a></li>
+<li><a href="/v1/pkg_util_wiperf.md">Wiperf</a></li>
+<li><a href="/v1/pkg_util_profiler.md">Profiler</a></li>
+</ul>
+</li>
+</ul>
+<!-- Link list -->
                 
                   
                     
@@ -1333,7 +1352,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../../pkg_util_wiperf/" title="Wiperf" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../getting_started_build_your_own/" title="Build Your Own" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1342,19 +1361,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Wiperf
+                Build Your Own
               </div>
             </div>
           </a>
         
         
-          <a href="../../videos/" title="Videos" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../pkg_perf_speedtest/" title="HTML Speedtest" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Videos
+                HTML Speedtest
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
