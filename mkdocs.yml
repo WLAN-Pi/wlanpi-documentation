@@ -44,7 +44,7 @@ nav:
             - Buy a Kit: getting_started_buy_kit.md
             - Build Your Own: getting_started_build_your_own.md
         - Packages: 
-            - Overview: packages.md
+            - Overview: v2/packages.md
             - Perf Measurement:
                 - HTML Speedtest: pkg_perf_speedtest.md
                 - iPerf: pkg_perf_iperf.md
