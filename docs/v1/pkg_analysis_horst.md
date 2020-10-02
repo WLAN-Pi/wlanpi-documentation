@@ -42,22 +42,22 @@ man horst
 
 After launching the program, pay attention to the bottom left of the program which will allow you to access the different menu options:
 <div style="float: center;">
-![horst1](images/horst1.png)
+![horst1](../images/horst1.png)
 </div>
 
 Press C to access the channel menu and changes:
 <div style="float: center;">
-![horst2](images/horst2.png)
+![horst2](../images/horst2.png)
 </div>
 
 Horst will also display some stats as to what type and how many types of a frame it is receiving:
 <div style="float: center;">
-![horst3](images/horst3.png)
+![horst3](../images/horst3.png)
 </div>
 
 Lastly horst is a poor man’s spectrum analyzer, which will allow you to see some basic info regarding the channel:
 <div style="float: center;">
-![horst4](images/horst4.png)
+![horst4](../images/horst4.png)
 </div>
 
 horst is another application that hasn’t been updated in some time and may have some bugs or may not work with the latest hardware. 

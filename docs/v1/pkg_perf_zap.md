@@ -15,7 +15,7 @@ The Ruckus Speedflex App is available for Android and iOS.
 
 Just launch the app on your mobile device and set the IP address of your WLAN Pi as the "Destination Address" and any other changes under "Configuration". Finally, hit "Run Test". 
 <div style="float: center;">
-![HotSpot](images/zap.png)
+![HotSpot](../images/zap.png)
 </div>
 
 The app is now quite old, so not all settings may work on the latest versions. 

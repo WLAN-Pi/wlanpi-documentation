@@ -18,7 +18,7 @@ If you hit the "New Issue" button, you will be presented with a form where you c
 
 Also, if possible, mark the issue as a bug using the label drop-down on the right of the web form.
 <div style="float: center;">
-![horst1](images/bug_report.jpg)
+![horst1](../images/bug_report.jpg)
 </div>
 
 Once you have submitted the bug, an email alert will be generated to a team of people and it will be forwarded on to the relevant person by one of the team that picks it up. Please be patient when waiting for a response, as we are all volunteers doing this in our spare time.

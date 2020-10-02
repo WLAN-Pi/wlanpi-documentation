@@ -1,9 +1,9 @@
-Title: WLAN Pi documentation project home page
+Title: WLAN Pi Docs
 Authors: Nigel Bowden
 
 # Welcome to the WLAN Pi Documentation Project
 <div style="float: right;">
-![WlanlPi Logo](images/wlanpi_v_small.png)
+![WlanlPi Logo](../images/wlanpi_v_small.png)
 </div>
 **Welcome to the WLAN Pi documentation site.**
 
@@ -23,6 +23,6 @@ On this site we will provide information to enable you to buy or build your own 
 
 <!-- Link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
-[Getting_Started]: getting_started_overview.md
-[FAQ]: faq.md
+[Getting_Started]: v2/getting_started_overview.md
+[FAQ]: v2/faq.md
 

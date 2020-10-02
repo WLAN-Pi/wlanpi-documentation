@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # Welcome to the WLAN Pi Documentation Project (Image v2.x.x)
 <div style="float: right;">
-![WlanlPi Logo](images/wlanpi_v_small.png)
+![WlanlPi Logo](../images/wlanpi_v_small.png)
 </div>
 **Welcome to home of the new WLAN Pi v2 documentation site.**
 
