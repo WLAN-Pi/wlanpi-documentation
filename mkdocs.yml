@@ -1,15 +1,19 @@
 site_name: WLAN Pi Documentation Project
 nav:
     - Home: index.md
+    - What's New For V2?: v2/whats_new_v2.md
     - V2 Image Docs: v2/index.md
     - V1 Image Docs: v1/index.md
     - Suppliers: suppliers.md
     - News: news.md
     - Support: support.md
     - Getting Involved: v2/get_involved.md
-    - V2: 
+    - V2 (Current): 
         - Home: v2/index.md
         - About: v2/about.md
+        - What's New For V2?:
+            - Overview: v2/whats_new_v2.md
+            - V2.0.0 Announcement: v2/v2_announcement.md
         - Getting Started:
             - Overview: v2/getting_started_overview.md
             - Buy a Kit: v2/getting_started_buy_kit.md
@@ -28,7 +32,6 @@ nav:
                 - Wiperf: v2/pkg_util_wiperf.md
                 - Profiler: v2/pkg_util_profiler.md
         - Videos: v2/videos.md
-        - Suppliers: v2/suppliers.md
         - FAQ: v2/faq.md
         - Getting Involved:
             - Overview: v2/get_involved.md
@@ -37,7 +40,7 @@ nav:
             - Bug Reports: v2/get_involved_bugs.md
             - Feature Suggestions: v2/get_involved_requests.md
         - Useful Links: v2/useful_links.md
-    - V1:
+    - V1 (Deprecated):
         - Home: v1/index.md
         - About: v1/about.md
         - Getting Started:
@@ -62,7 +65,6 @@ nav:
                 - Wiperf: v1/pkg_util_wiperf.md
                 - Profiler: v1/pkg_util_profiler.md
         - Videos: v1/videos.md
-        - Suppliers: v1/suppliers.md
         - FAQ: v1/faq.md
         - Useful Links: v1/useful_links.md
 theme:
@@ -71,11 +73,13 @@ theme:
         logo: material/wifi
     language: en
     features:
-        - tabs
+        - navigation.tabs
 extra_css:
   - extra.css
 markdown_extensions:
   - admonition
+  - attr_list
+  - pymdownx.tabbed
 plugins:
     - search
     - git-revision-date-localized

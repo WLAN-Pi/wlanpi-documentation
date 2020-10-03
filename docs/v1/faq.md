@@ -175,7 +175,7 @@ Support is on a volunteer/best efforts basis by project volunteers. Try [here][s
 If you have a feature suggestion for the WLAN Pi, please get along to the GitHub site for the project and open an issue ticket with your suggestion: [link][suggestions] (this will need a (free) GitHub account to create an issue)
 
 <!-- Link list -->
-[support]: support.md
+[support]: ../support.md
 [wlanpi_releases]: https://github.com/WLAN-Pi/wlanpi/releases
 [burn_image]: https://youtu.be/sD4WlNyyWDs
 [adapter_sheet]: https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0

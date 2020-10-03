@@ -19,15 +19,16 @@ Workflow:
     e. Install MKDocs revision date plugin: pip install mkdocs-git-revision-date-localized-plugin
     f. Install Git if you don't already have it: https://git-scm.com/downloads
     g. Change in to a directory where you wish to clone the repo
-    h. Clone the repo to allow you to work on it locally: https://github.com/WLAN-Pi/wlanpi-documentation.git
+    h. Clone the repo to allow you to work on it locally: git clone https://github.com/WLAN-Pi/wlanpi-documentation.git
 2. Creating or editing docs
     a. Change in to the cloned directory and verify project files exist
-    b. Edit files as per the MKDocs guide: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
-    c. Run the local mkdocs server: mkdocs serve  --dev-addr=0.0.0.0:8081
-    c. Once editing is complete, build the site : mkdocs build
-    d. Commit & push files from local Git instance (git add, git commit -m, git push)
-    e. Push the new docs to the GitHub project page using: mkdocs gh-deploy (see https://www.mkdocs.org/user-guide/deploying-your-docs/)
-    f. Check updates all look good at : https://wlan-pi.github.io/wlanpi-documentation/
+    b. If editing in a development branch (e.g. 'dev') change to that branch: 'git checkout dev'
+    c. Edit files as per the MKDocs guide: https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown
+    d. To look at the site on your local machine, run the local mkdocs server: mkdocs serve  --dev-addr=0.0.0.0:8081 (browse it at http://127.0.0.1:8081 on your local machine)
+    e. Once editing is complete, build the site : mkdocs build
+    f. Commit & push files from local Git instance (git add, git commit -m, git push)
+    g. Push the new docs to the GitHub project page using: mkdocs gh-deploy (see https://www.mkdocs.org/user-guide/deploying-your-docs/)
+    h. Check updates all look good at : https://wlan-pi.github.io/wlanpi-documentation/
 
 Here is an excellent guide to using the MKDocs markup: https://github.com/PegaSysEng/doc.pantheon/blob/master/MKDOCS-MARKDOWN-GUIDE.md
 

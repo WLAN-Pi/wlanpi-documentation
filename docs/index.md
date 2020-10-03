@@ -3,10 +3,8 @@ Authors: Nigel Bowden
 
 # Welcome to the WLAN Pi Documentation Project
 <div style="float: right;">
-![WlanlPi Logo](../images/wlanpi_v_small.png)
+![WlanlPi Logo](images/wlanpi_v_small.png)
 </div>
-**Welcome to the WLAN Pi documentation site.**
-
 The WLAN Pi initiative started at the [Wireless LAN Professionals Conference][WLPC_2016] in 2016. Since then, the WLAN Pi has grown in to a popular addition to the toolset of many WLAN engineers. 
 
 The project is constantly adding and improving the tools available on the WLAN Pi platform to provide a richer toolset to our loyal base of users. 
@@ -15,14 +13,28 @@ This site has been created to provide supporting documentation to the project, t
 
 On this site we will provide information to enable you to buy or build your own WLAN Pi, detail the packages available on the current WLAN Pi image and provide update information about the WLAN Pi project.
 
+## Navigating This Site
+
+In October 2020, after many months of hard work by the volunteer development team, the version 1 image of the WLAN Pi was superseded by the version 2. Version 2 provides a more robust software architecture that will improve on many of the issues experienced in version 1 (e.g. SD card re-burns for each software update), in addition to providing additional exciting features.
+
+It is anticipated that the version 1 image will still be in circulation for a while, so we have maintained all of the [version 1 image documentation][v1_docs] here on the documentation site. You can find the version 1 documentation [here][v1_docs]. However, please note that we will not be maintaining these document going forwards - our development efforts will solely be around the new version 2 image.
+
+The [version 2 documentation][v2_docs] set is currently under development, so please keep checking back for updates as we build out the new documentation.
+
+<!-- Commented out - bring back when v2 docs more mature
+
 !!! info
     If you're new to the WLAN Pi project, a great place to start is our [Getting Started][Getting_Started] page.
 
 !!! attention
     Check out common queries in our [FAQ section][FAQ]
 
+-->
+
 <!-- Link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
 [Getting_Started]: v2/getting_started_overview.md
 [FAQ]: v2/faq.md
+[v1_docs]: v1/index.md
+[v2_docs]: v2/index.md
 
