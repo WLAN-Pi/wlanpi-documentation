@@ -1,7 +1,7 @@
 site_name: WLAN Pi Documentation Project
 nav:
     - Home: index.md
-    - What's New For V2?: v2/whats_new_v2.md
+    - What's New For V2?: v2/v2_whats_new.md
     - V2 Image Docs: v2/index.md
     - V1 Image Docs: v1/index.md
     - Suppliers: suppliers.md
@@ -10,10 +10,11 @@ nav:
     - Getting Involved: v2/get_involved.md
     - V2 (Current): 
         - Home: v2/index.md
-        - About: v2/about.md
         - What's New For V2?:
-            - Overview: v2/whats_new_v2.md
+            - Overview: v2/v2_whats_new.md
+            - V2.0.0 Video & Slides: v2/v2_video.md
             - V2.0.0 Announcement: v2/v2_announcement.md
+        - FAQ: v2/faq.md
         - Getting Started:
             - Overview: v2/getting_started_overview.md
             - Buy a Kit: v2/getting_started_buy_kit.md
@@ -32,7 +33,6 @@ nav:
                 - Wiperf: v2/pkg_util_wiperf.md
                 - Profiler: v2/pkg_util_profiler.md
         - Videos: v2/videos.md
-        - FAQ: v2/faq.md
         - Getting Involved:
             - Overview: v2/get_involved.md
             - Coding for the WLAN Pi: v2/get_involved_coding.md
@@ -40,6 +40,7 @@ nav:
             - Bug Reports: v2/get_involved_bugs.md
             - Feature Suggestions: v2/get_involved_requests.md
         - Useful Links: v2/useful_links.md
+        - About: v2/about.md
     - V1 (Deprecated):
         - Home: v1/index.md
         - About: v1/about.md

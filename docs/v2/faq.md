@@ -3,6 +3,10 @@ Authors: Nigel Bowden
 
 # FAQ
 
+## Where can I get hold of a WLAN Pi kit?
+
+Please check out our [suppliers page][suppliers] for the latest information on WLAN Pi hardware availability.
+
 ## Where can I get the latest WLAN Pi image?
 
 TBA - new process for V2.x.x
@@ -10,8 +14,6 @@ TBA - new process for V2.x.x
 ## How do I find which image version is currently installed on my WLAN?
 
 If you look on the top-level "home" page of the front panel display, the version number of the image should be shown on the top left of the display.
-
-If you see no version number, it may be that you have quite an old version of image. If you have network connectivity to the WLAN Pi, browse to it  (169.254.42.1 if you're on the USB OTG connection) and look at the bottom right of the web page to see the image version.
 
 ## How do I burn a WLAN Pi image?
 
@@ -169,6 +171,7 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 
 <!-- Link list -->
 [support]: ../support.md
+[suppliers]: ../suppliers.md
 [wlanpi_releases]: https://github.com/WLAN-Pi/wlanpi/releases
 [burn_image]: https://youtu.be/sD4WlNyyWDs
 [adapter_sheet]: https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0

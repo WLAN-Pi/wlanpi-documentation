@@ -24,23 +24,25 @@ Documentation Site (WIP): [docs.wlanpi.com](https://wlan-pi.github.io/wlanpi-doc
 
 >**Note 2:** Several previously included tools have been dropped from the WLAN Pi 2.0 toolset. This allowed us to refocus our efforts on improving a core set of tools that were determined to be the most used and useful.
 
-More details on the toolset and whats changed can be found [here](https://docs.google.com/spreadsheets/d/1Uu-UXLg82gJyFlO7vpMPn8un5plKhiNx2cn6Vy4s48U/edit?usp=sharing).
+More details on the toolset and what's changed can be found [here](https://docs.google.com/spreadsheets/d/1Uu-UXLg82gJyFlO7vpMPn8un5plKhiNx2cn6Vy4s48U/edit?usp=sharing){target=_blank}.
 
 ---
 ### <a id="new-webui"></a> New WebUI
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/17500656/94476340-f6f5f080-0195-11eb-8aa4-02a1c7315e3c.png"></img>
+
 * Extensible framework built on Flask
 * Network information includes:
-  * Reachability test
-  * Local IP info
-  * Public IP info
-  * CDP and LLDP neighbor info
+    * Reachability test
+    * Local IP info
+    * Public IP info
+    * CDP and LLDP neighbor info
 * Profiler results
 * LibreSpeed test improved 
 
 ---
 ### <a id="new-web-admin-interface"></a> New Web Admin Interface
 <img width="347" alt="image" src="https://user-images.githubusercontent.com/17500656/94484885-b3ee4a00-01a2-11eb-8d10-74faf8aa844e.png"></img>
+
 - Cockpit Project - https://cockpit-project.org/ 
 - Adjust time zone
 - Manage services
@@ -50,6 +52,7 @@ More details on the toolset and whats changed can be found [here](https://docs.g
 ---
 ### <a id="new-server-mode"></a> New Server Mode
 <img width="134" alt="image" src="https://user-images.githubusercontent.com/17500656/94473825-594cf200-0192-11eb-9a96-696a67299d96.png"></img>
+
 - Ideal for lab, provisioning, staging and software upgrades of network devices
 - Enables all services on the WLAN Pi like DHCP server, TFTP server, Wi-Fi console, wireless access to the WLAN Pi and more coming soon
 - Safety first: this mode is non-persistent and WLAN Pi will switch back to its default “Classic” mode after reboot
@@ -62,6 +65,7 @@ More details on the toolset and whats changed can be found [here](https://docs.g
 ---
 ### <a id="updated-profiler"></a> Updated Profiler
 <img width="301" alt="image" src="https://user-images.githubusercontent.com/17500656/94485433-88b82a80-01a3-11eb-8bf8-10316010fad8.png"></img>
+
 - Complete rewrite of the codebase from python2 to python3
 - Integrated and customized fakeap scapy code
 - Improved performance
@@ -71,6 +75,7 @@ More details on the toolset and whats changed can be found [here](https://docs.g
 ---
 ### <a id="updated-front-panel-menu-system"></a> Updated Front Panel Menu System (FPMS)
 <img width="425" alt="image" src="https://user-images.githubusercontent.com/17500656/94485884-362b3e00-01a4-11eb-8206-4ca0fdbafb8c.png"></img>
+
 - Button clicks are 50% more responsive! No more double pressing buttons :)
 - Button layout options - choose your preferred button layout
 - CDP neighbour - now also shows software version if advertised
@@ -80,11 +85,12 @@ More details on the toolset and whats changed can be found [here](https://docs.g
 ---
 ### <a id="updated-wiperf-mode"></a> Updated Wiperf mode
 <img width="399" alt="image" src="https://user-images.githubusercontent.com/17500656/94473705-273b9000-0192-11eb-8d4c-4b6c13178777.png"></img>
+
 * Support for testing over Ethernet
 * Support for reporting in to Influx/Grafana
 * Canned dashboard report improvements
 
-More details: https://wifinigel.github.io/wiperf/
+More details: [https://wifinigel.github.io/wiperf/](https://wifinigel.github.io/wiperf/){target=_blank}
 
 ---
 ### <a id="updated-wi-fi-drivers"></a> Updated Wi-Fi Drivers
