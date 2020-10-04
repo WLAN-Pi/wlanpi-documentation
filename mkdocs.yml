@@ -1,47 +1,17 @@
 site_name: WLAN Pi Documentation Project
 nav:
     - Home: index.md
-    - What's New For V2?: v2/v2_whats_new.md
-    - V2 Image Docs: v2/index.md
-    - V1 Image Docs: v1/index.md
+    - What's New For V2?: v2_whats_new.md
+    - FAQ: faq.md
     - Suppliers: suppliers.md
+    - Getting Started: getting_started_overview.md
+    - Packages: packages.md
     - News: news.md
     - Support: support.md
-    - Getting Involved: v2/get_involved.md
-    - V2 (Current): 
-        - Home: v2/index.md
-        - What's New For V2?:
-            - Overview: v2/v2_whats_new.md
-            - V2.0.0 Video & Slides: v2/v2_video.md
-            - V2.0.0 Announcement: v2/v2_announcement.md
-        - FAQ: v2/faq.md
-        - Getting Started:
-            - Overview: v2/getting_started_overview.md
-            - Buy a Kit: v2/getting_started_buy_kit.md
-            - Build Your Own: v2/getting_started_build_your_own.md
-        - Packages: 
-            - Overview: v2/packages.md
-            - Perf Measurement:
-                - HTML Speedtest: v2/pkg_perf_speedtest.md
-                - iPerf: v2/pkg_perf_iperf.md
-            - Analysis:
-                - Scapy: v2/pkg_analysis_scapy.md
-                - extcap: v2/pkg_analysis_extcap.md
-            - Utilities:
-                - Wi-Fi Console: v2/pkg_util_wconsole.md
-                - Hotspot Mode: v2/pkg_util_hotspot.md
-                - Wiperf: v2/pkg_util_wiperf.md
-                - Profiler: v2/pkg_util_profiler.md
-        - Videos: v2/videos.md
-        - Getting Involved:
-            - Overview: v2/get_involved.md
-            - Coding for the WLAN Pi: v2/get_involved_coding.md
-            - Non-coder Contribution Opportunties: v2/get_involved_non_coding.md
-            - Bug Reports: v2/get_involved_bugs.md
-            - Feature Suggestions: v2/get_involved_requests.md
-        - Useful Links: v2/useful_links.md
-        - About: v2/about.md
-    - V1 (Deprecated):
+    - Videos: videos.md
+    - Getting Involved: get_involved.md
+    - About: about.md
+    - V1 Docs (Deprecated):
         - Home: v1/index.md
         - About: v1/about.md
         - Getting Started:

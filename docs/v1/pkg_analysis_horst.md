@@ -3,6 +3,8 @@ Authors: Ian Stout
 
 # Horst
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 horst is a small, lightweight IEEE802.11 WLAN analyzer with a text interface. It's a Linux program and can be used on any wireless LAN interface which supports monitor mode.
 
 Its basic function is similar to tcpdump, Wireshark or Kismet, but it's much smaller and shows different, aggregated information which is not easily available from other tools. It is made for debugging wireless LANs with a focus on getting a quick overview instead of deep packet inspection and has special features for Ad-hoc (IBSS) mode and mesh networks. 

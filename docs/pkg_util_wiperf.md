@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # Wiperf
 <div style="float: center;">
-![Wiperf Screenshot](../images/wiperf_summary.jpg)
+![Wiperf Screenshot](images/wiperf_summary.jpg)
 </div>
 
 The WLAN Pi wiperf mode allows you to turn your WLAN Pi in to a wireless client device that runs a series of connectivity and performance tests and reports them back in to Splunk.

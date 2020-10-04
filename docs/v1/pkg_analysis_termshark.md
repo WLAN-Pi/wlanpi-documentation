@@ -2,9 +2,12 @@ Title: Termshark
 Authors: Nigel Bowden
 
 # Termshark
+
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
 <div style="float: center;">
 ![Termshark Screenshot](../images/termshark.png)
 </div>
+
 
 Termshark is a terminal based UI that provides a Wireshark-type experience from the CLI. It provides many of the features of Wireshark, but delivered locally on the WLAN Pi via a text-based UI.
 

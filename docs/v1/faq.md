@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # FAQ
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 ## Where can I get the latest WLAN Pi image?
 
 The latest WLAN Pi image is available [here][wlanpi_releases]

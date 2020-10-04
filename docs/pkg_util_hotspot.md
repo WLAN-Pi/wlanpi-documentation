@@ -13,7 +13,7 @@ Finally, it also supports forwarding so that the WLAN Pi may also be connected t
 
 To access hotspot mode, on the WLAN Pi front panel, select : Menu > Mode > Hotspot
 <div style="float: center;">
-![HotSpot](../images/hotspot.jpg)
+![HotSpot](images/hotspot.jpg)
 </div>
 ## References:
 

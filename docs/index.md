@@ -33,8 +33,8 @@ The [version 2 documentation][v2_docs] set is currently under development, so pl
 
 <!-- Link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
-[Getting_Started]: v2/getting_started_overview.md
-[FAQ]: v2/faq.md
+[Getting_Started]: getting_started_overview.md
+[FAQ]: faq.md
 [v1_docs]: v1/index.md
-[v2_docs]: v2/index.md
+[v2_docs]: index.md
 

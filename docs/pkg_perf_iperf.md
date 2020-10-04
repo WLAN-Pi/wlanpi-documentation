@@ -35,7 +35,7 @@ iperf -c <server_ip>
 iperf3 -c <server_ip>
 ```
 
-![iperf](../images/iperf_basic_throughput.png)
+![iperf](images/iperf_basic_throughput.png)
 
 ### Displaying data formatted in different units. 
 The units that in which results are displayed (i.e. Kilobits per sec, Megabits per sec etc.) may be modified using the following command attributes:
@@ -44,20 +44,20 @@ iperf -c <server_ip>  -f (b, B, k, K, m, M, g, G, t, T)
 iperf3 -c <server_ip>  -f (b, B, k, K, m, M, g, G, t, T)
 ```
 
-![iperf](../images/iperf_data_format.png)
+![iperf](images/iperf_data_format.png)
 
 ### iperf from server to client (reverse direction test) or bi-directional test
 ```
 iperf -c <server_ip>  -r -d
 ```
 
-![iperf](../images/iperf_bi-directional.png)
+![iperf](images/iperf_bi-directional.png)
  
 ```
 iperf3 -c <server_ip>  -R or iperf3 -c <server_ip>  --bidir
 ```
 
-![iperf](../images/iperf3_bi-directional.png)
+![iperf](images/iperf3_bi-directional.png)
 
 
 ### iperf using udp
@@ -66,7 +66,7 @@ iperf -c <server_ip> -u
 iperf3 -c <server_ip> -u
 ```
 
-![iperf](../images/iperf_udp.png)
+![iperf](images/iperf_udp.png)
 
 
 ## References

@@ -5,6 +5,8 @@ Authors: Nigel Bowden
 <div style="float: right;">
 ![WlanlPi Logo](../images/wlanpi_v_small.png)
 </div>
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 The WLAN Pi project started in 2016 at [WLPC][WLPC_2016]. The goal was to create a portable, ready-to-use device that could function as a network endpoint for measuring network performance and throughput.
 
 Since then, it has been widely embraced in the awesome wireless community and after many contributions, this tiny box has evolved well beyond a network performance testing device. 

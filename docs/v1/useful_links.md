@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # Useful Links
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 Here is a collection of useful articles and resources that may help you on your WLANPi journey:
 
 ## Development:

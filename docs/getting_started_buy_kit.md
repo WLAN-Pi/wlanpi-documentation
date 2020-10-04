@@ -11,7 +11,7 @@ One of the easiest options is to buy the kit from the [WLPC store][WLPC_Store]. 
 ( However, if you're a nuts & bolts type of person who like to roll up your sleeves and build stuff yourself, check out our ["build your own kit page"][Build_Own] )
 
 <!-- Link list -->
-[Suppliers]: ../suppliers.md
+[Suppliers]: suppliers.md
 [WLPC_Store]: http://www.wlanpros.com/product-category/store/
 [Build_Own]: getting_started_build_your_own.md
 

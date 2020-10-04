@@ -2,6 +2,9 @@ Title: iperf
 Authors: Ian Stout/Nigel Bowden
 
 # iperf
+
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 iperf  is a tool for performing network throughput measurements.  It can test either TCP or UDP throughput.  To perform an iperf test the user must establish both a server (to receive traffic) and a client (to generate traffic).
 
 The WLAN Pi has iperf2 and iperf3 servers running upon start-up, these servers are using the default options for each version. 

@@ -3,6 +3,8 @@ Authors: Ian Stout
 
 # Zap
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 Zap is a 3rd generation test tool developed by Ruckus to assist in wireless network test and characterization. In the common use case it works by sending bursts of 50 full-size UDP packets.  The packet loss and inter-arrival times are monitored and reported.  The primary results reported are number of packets lost, total packets received, and detailed throughput statistics.
 
 The Zap server is run as a background process each time the WLAN Pi boots, so does not require any additional steps to activate. 

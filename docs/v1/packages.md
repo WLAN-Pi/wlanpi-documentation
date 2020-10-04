@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # Packages
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 The WLANPi image is supplied with a number of useful networking programs, utilities and scripts to help the WLAN professional out in the field.
 
 An overview of each of these packages is provided in this section.

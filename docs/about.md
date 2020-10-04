@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # About
 <div style="float: right;">
-![WlanlPi Logo](../images/wlanpi_v_small.png)
+![WlanlPi Logo](images/wlanpi_v_small.png)
 </div>
 The WLAN Pi project started in 2016 at [WLPC][WLPC_2016]. The goal was to create a portable, ready-to-use device that could function as a network endpoint for measuring network performance and throughput.
 
@@ -17,7 +17,7 @@ There are two main component parts to the WLAN Pi: a NEO2 hardware platform and 
 
 ### NEO2
 <div style="float: right;">
-![CF-912](../images/neo2_bare.jpg)
+![CF-912](images/neo2_bare.jpg)
 </div>
 At the heart of the WLAN Pi is the NanoPi NEO2, a super tiny quad-core single-board computer (SBC). The NanoPi NEO2 shares some similarities to the more well known Raspberry Pi, however the NanoPi is less than ½ its size, consumes less power, and it can push over 900 Mbps over its gigabit ethernet connection.
 
@@ -31,7 +31,7 @@ More info: <http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2>
 
 ### Wi-Fi Adapter
 <div style="float: right;">
-![CF-912](../images/cf912.jpg)
+![CF-912](images/cf912.jpg)
 </div>
 The Wi-Fi adapter is a Comfast CF-912ac. It uses the Realtek rtl8812au chipset, one of the few 802.11ac chipsets that support monitor mode and packet injection in linux. 
 

@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # Getting Started with the WLAN Pi
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 ## Buying a Kit
 If you'd like to buy a pre-built kit, check out our [suppliers page][Suppliers]. We'll keep this updated with kit buying options.
 

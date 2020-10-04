@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # Hotspot Mode
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 Hotspot mode allows the WLAN Pi to become a small-scale AP to allow a variety of tests to be performed. 
 
 It broadcasts an SSID, allowing the WLAN Pi to be used as a source for wall attenuation measurements ( see [this article][wall-measurements] ).

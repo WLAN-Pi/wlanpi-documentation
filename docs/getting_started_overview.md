@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # Getting Started with the WLAN Pi
 <div style="float: right;">
-![WlanlPi Logo](../images/wlanpi_v_small.png)
+![WlanlPi Logo](images/wlanpi_v_small.png)
 </div>
 
 ## User Guide

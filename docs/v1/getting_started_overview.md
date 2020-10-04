@@ -6,6 +6,8 @@ Authors: Nigel Bowden
 ![WlanlPi Logo](../images/wlanpi_v_small.png)
 </div>
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 ## User Guide
 If you have your WLAN Pi hardware and you'd like to find out what you can do with your WLAN Pi, you can check out this [user guide][User_Guide]. This guide is a couple of years old now, but has some great information providing you with more background to the WLAN Pi and will get you going with some of its great utilities.
 

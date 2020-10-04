@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # Wi-Fi Console
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 Turn your WLANPi in to a wireless serial console cable
 
 It can be annoying to have to sit in an equipment room to use the serial console port on an item of networking equipment. This project allows you to use a WLANPi to connect to your serial console cable via a Wi-Fi link while sat in the comfort of a nearby office, rather than sat with your laptop on the equipment room floor :)

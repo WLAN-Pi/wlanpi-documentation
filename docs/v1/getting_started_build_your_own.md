@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # Getting Started with the WLAN Pi
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 ## Building Your Own Kit
 Rolling your own WLAN Pi takes a little more work than a pre-built kit, but with a little effort, you can source all of the parts and put one together.
 

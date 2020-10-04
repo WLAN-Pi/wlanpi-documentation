@@ -3,6 +3,8 @@ Authors: Nigel Bowden
 
 # WLAN Pi Videos
 
+**<span style="color:red">Note that this documentation is for the deprecated version 1 software image of the WLAN Pi</span>**
+
 There have been quite a few videos made by members of the WLAN Pi Community that might help you learn more about the WLAN Pi. Check them out below:
 
 * [(May 2020) Coffee Hour - Remote Troubleshooting w/ WLAN Pi, Python Scripting (Francois Verges & Rowell Dionicio)](https://youtu.be/CM0e3Dfsc_k)
