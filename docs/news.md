@@ -3,6 +3,15 @@ Authors: Nigel Bowden
 
 # News
 
+## Availability of the V2.0.0 Image
+
+**30th September 2020**
+
+After many months of hard works, version 2.0.0 of the WLAN Pi image has been released. The image has been rebuilt from the ground up to provide an improved software installation and update process. It's toolset has been revamped, it has many usability improvements and hardware support has been expanded.
+
+For details of [what's new][whats_new] in version 2.0.0, please visit the official ["whats new"][whats_new] page.
+
+
 ## Availability of the NEO2 Device
 
 **10th May 2020**
@@ -81,3 +90,4 @@ In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fi
 [v191]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.9.1
 [zt_image]: https://rickwifiguy.wordpress.com/2020/02/11/zerotier-and-wlanpi-keeping-profiles-and-keys-for-re-imaging/
 [dfs_profiler]: https://www.youtube.com/watch?v=SVjCwcrxUPU
+[whats_new]: v2_whats_new.md

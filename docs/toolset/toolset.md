@@ -1,7 +1,7 @@
 Title: Software packages available in the WLANPi
 Authors: Nigel Bowden
 
-# Packages
+# Toolset
 
 The WLANPi image is supplied with a number of useful networking programs, utilities and scripts to help the WLAN professional out in the field.
 

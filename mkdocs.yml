@@ -1,15 +1,15 @@
 site_name: WLAN Pi Documentation Project
 nav:
     - Home: index.md
-    - What's New For V2?: v2_whats_new.md
+    - What's New For V2?: v2/v2_whats_new.md
     - FAQ: faq.md
-    - Suppliers: suppliers.md
-    - Getting Started: getting_started_overview.md
-    - Packages: packages.md
+    - Getting Started: get_started/getting_started_overview.md
+    - Toolset: toolset/toolset.md
+    - Administration: admin.md
     - News: news.md
     - Support: support.md
-    - Videos: videos.md
-    - Getting Involved: get_involved.md
+    - Getting Involved: get_involved/get_involved.md
+    - Suppliers: suppliers.md
     - About: about.md
     - V1 Docs (Deprecated):
         - Home: v1/index.md

@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # What's New In Version 2?
 
-The WLAN Pi V2 image was released in October 2020. The image has been rebuilt from the ground up to provide an vastly improved software installation and update process going forwards. It's toolset has been revamped, it has many usability improvements and hardware support has been expanded.
+The WLAN Pi V2 image was released in October 2020. The image has been rebuilt from the ground up to provide an improved software installation and update process. It's toolset has been revamped, it has many usability improvements and hardware support has been expanded.
 
 
 ## Version 2.0.0 Announcement Notes
