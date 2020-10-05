@@ -9,7 +9,11 @@ Please check out our [suppliers page][suppliers] for the latest information on W
 
 ## Where can I get the latest WLAN Pi image?
 
-TBA - new process for V2.x.x
+You can obtain the latest base image for the WLAN Pi from the releases area of the WAN Pi GitHub repository:
+
+[https://github.com/WLAN-Pi/releases/releases](https://github.com/WLAN-Pi/releases/releases){target=_blank}
+
+Once downloaded, you can burn it on to an SD card as described in the following administration document: [Burning a WLAN Pi Image][burn_image]
 
 ## How do I find which image version is currently installed on my WLAN?
 
@@ -17,9 +21,7 @@ If you look on the top-level "home" page of the front panel display, the version
 
 ## How do I burn a WLAN Pi image?
 
-If you'd like to burn a WLAN Pi image on to a kit you've bought or update the image of your existing WLAN Pi, here is a video explaining the process:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sD4WlNyyWDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Checkout this administration document: [Burning a WLAN Pi Image][burn_image]
 
 ## How do I change the password for the wlanpi user
 
@@ -41,36 +43,7 @@ wlanpi@wlanpi:~$
 
 ## How do I change the hostname of my WLAN Pi
 
-By default, the hostname of your WLAN Pi is : wlanpi
-
-If you'd like to change this to a more meaningful hostname, then you will need to SSH to your WLAN Pi and update the ```/etc/hostname``` and ```/etc/hosts``` files, followed by a reboot of the WLAN Pi:
-
-Edit the /etc/hostname file using the command:
-
-```
- sudo nano /etc/hostname
-```
-
-There is a single line that says 'wlanpi'. Change this to your required hostname. Then hit Ctrl-X  and "y" to save your changes.
-
-Alternatively, you may also use the following CLI command to achieve the same result:
-
-```
-sudo hostnamectl set-hostname <name>
-```
-
-Whichever method is used to update the hostname file, next edit the /etc/hosts file:
-
-```
- sudo nano /etc/hosts
-```
-Change each instance of 'wlanpi' to the new hostname (there are usually two instances). Then hit Ctrl-X  and "y" to save your changes.
-
-Finally, reboot your WLAN Pi:
-
-```
- sudo reboot
-```
+Checkout this administration note: [Change the hostname of a WLAN Pi][hostname]
 
 ## How do I set the timezone on my WLAN Pi?
 
@@ -177,4 +150,5 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [adapter_sheet]: https://docs.google.com/spreadsheets/d/1yAjO2vZuIfJ9BwI5cQ_qu72HpyEuETj4Zd7bWBnskDM/edit#gid=0
 [suggestions]: https://github.com/WLAN-Pi/wlanpi/issues
 [Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.html
-
+[burn_image]: admin/burn_image.md
+[hostname]: admin/hostname.md

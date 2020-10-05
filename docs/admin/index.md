@@ -11,9 +11,13 @@ In this section, we'll provide access to a number of guides to provide guidance 
 
 * [Change the hostname of a WLAN Pi][hostname]
 * [Change the Timezone of a WLAN Pi][timezone]
+* [Burning a WLAN Pi Image on to an SD Card][burn_image]
+* [Updating WLAN Pi Packages][updating_packages]
 
 <!-- Link list -->
 [back]: index.md
 [hostname]: hostname.md
 [timezone]: timezone.md
+[burn_image]: burn_image.md
+[updating_packages]: updating_packages.md
 
