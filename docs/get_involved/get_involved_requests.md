@@ -17,11 +17,16 @@ If you hit the "New Issue" button, you will be presented with a form where you c
 
 Also, if possible, mark the request as a enhancement using the label drop-down on the right of the web form.
 <div style="float: center;">
-![feature request](images/feature_request.jpg)
+![feature request](../images/feature_request.jpg)
 </div>
 
 Once you have submitted the request, an email alert will be generated to a team of people and it will be forwarded on to the relevant person by one of the team that picks it up. Please be patient when waiting for a response, as we are all volunteers doing this in our spare time.
 
-<!-- link list -->
+
+
+[<-- back][back]
+
+<!-- Link list -->
+[back]: index.md
 [nigel_twitter]: https://twitter.com/wifinigel
 [jerry_twitter]: https://twitter.com/jolla

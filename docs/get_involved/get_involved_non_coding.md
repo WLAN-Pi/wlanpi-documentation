@@ -13,6 +13,11 @@ Once we have new code ready to go, we also need to make sure it is sufficiently 
 
 If you'd like to be involved in any of these areas, please contact [Jerry Olla][jerry_twitter] or [Nigel Bowden][nigel_twitter] on Twitter or track them down via any well known search engine.
 
-<!-- link list -->
+
+
+[<-- back][back]
+
+<!-- Link list -->
+[back]: index.md
 [nigel_twitter]: https://twitter.com/wifinigel
 [jerry_twitter]: https://twitter.com/jolla

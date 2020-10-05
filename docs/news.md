@@ -90,4 +90,4 @@ In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fi
 [v191]: https://github.com/WLAN-Pi/wlanpi/releases/tag/v1.9.1
 [zt_image]: https://rickwifiguy.wordpress.com/2020/02/11/zerotier-and-wlanpi-keeping-profiles-and-keys-for-re-imaging/
 [dfs_profiler]: https://www.youtube.com/watch?v=SVjCwcrxUPU
-[whats_new]: v2_whats_new.md
+[whats_new]: v2/index.md

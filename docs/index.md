@@ -36,5 +36,5 @@ The bulk of this site is now dedicated to the  version 2 WLAN Pi image. The docu
 [Getting_Started]: getting_started_overview.md
 [FAQ]: faq.md
 [v1_docs]: v1/index.md
-[v2_whats_new]: v2_whats_new.md
+[v2_whats_new]: v2/index.md
 

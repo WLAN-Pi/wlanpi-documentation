@@ -62,7 +62,12 @@ We're all finding our way in this process of both developing and figuring out th
 * [Git][git]
 * [Visual Studio Code][vsc]
 
-<!-- link list -->
+
+
+[<-- back][back]
+
+<!-- Link list -->
+[back]: index.md
 [github]: https://github.com/WLAN-Pi
 [vsc]: https://code.visualstudio.com/download
 [git]: https://git-scm.com/

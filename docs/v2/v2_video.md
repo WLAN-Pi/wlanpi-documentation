@@ -22,7 +22,7 @@ We also have the original video available on our Youtubesite, with time-stamped 
 
 <!-- Link list -->
 [wtf_video]: https://www.accelevents.com/e/WTF20/portal/stage/23645
-[wtf_slides]: media/WLAN_Pi_2.0_WTF.pdf
+[wtf_slides]: ../media/WLAN_Pi_2.0_WTF.pdf
 [wtf_site]: https://wtf20.com/
 
 [youtube_video]: https://youtu.be/UCO9m-EpUAc

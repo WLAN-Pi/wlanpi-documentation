@@ -3,7 +3,7 @@ Authors: Nigel Bowden
 
 # Getting Started with the WLAN Pi
 <div style="float: right;">
-![WlanlPi Logo](images/wlanpi_v_small.png)
+![WlanlPi Logo](../images/wlanpi_v_small.png)
 </div>
 
 ## User Guide
@@ -39,6 +39,6 @@ Check out the links below for more information:
 [WLPC_Store]: http://www.wlanpros.com/product-category/store/
 [WLPC_Conference]: https://wlanprofessionals.com/
 [User_Guide]: https://docs.google.com/document/d/13W31uoOfefEJIlWu1m7gt5pFws8YSt_xcbRZt2hidQA/edit#
-[Supported_Adapters]: faq.md#which-wireless-adapters-are-supported-on-the-wlan-pi
+[Supported_Adapters]: ../faq.md#which-wireless-adapters-are-supported-on-the-wlan-pi
 
 
