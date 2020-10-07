@@ -5,7 +5,7 @@ Authors: Nigel Bowden
 
 <span style="color: red">**Note:**</span> _Please note that the currently supported WLAN Pi platform, the NEO2, is no longer available from the hardware manufacturer. As a result, no new hardware will be available to purchase from the manufacturer going forwards. Our kit suppliers listed below may occasionally find surplus stocks from various resellers and make them available, but numbers are generally very limited. Please check the kit suppliers shown below for availability._
 
-_A new hardware platform is under development to replace the NEO2, but there are currently no fixed timescales for its availability. Please keep checking back for more [news][news]_
+_A new hardware platform is under development to replace the NEO2, but there are currently no fixed timescales for its availability. Please [check here][availability] for our latest statement on platform availability_
 
 
 ## Complete Kit Suppliers
@@ -15,7 +15,7 @@ _A new hardware platform is under development to replace the NEO2, but there are
 
 ## NEO2 Suppliers
 
-- [FriendlyArm NEO2 Kit][NEO2]{target=_blank} (Note: _As of April 2020, we understand that FriendlyArm are no longer producing the NEO2 due to component supply issues. We awaiting details of a replacement device that we can use going forwards_)
+- [FriendlyArm NEO2 Kit][NEO2]{target=_blank} (Note: As of April 2020, we understand that FriendlyArm are no longer producing the NEO2 due to component supply issues. We are investigating a suitable replacement device to use going forwards - _Please [check here][availability] for our latest statement on platform availability_
 
 ## Comfast CF-912 Adapter
 <div>
@@ -40,3 +40,4 @@ _A new hardware platform is under development to replace the NEO2, but there are
 [Nick_UK]: http://badgerwifi.co.uk/store
 [aliexpress]: https://www.aliexpress.com/item/4000048659616.html
 [news]: news.md
+[availability]: faq.md#i-hear-the-neo2-is-no-longer-available-when-will-replacement-hardware-be-available
