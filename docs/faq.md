@@ -5,8 +5,15 @@ Authors: Nigel Bowden
 
 ## I hear the NEO2 is no longer available - when will replacement hardware be available?
 
-The original WLAN Pi platform was the [NEO2 SBC][Friendlyarm]{target=_blank} which was available from the FriendlyArm company in China. However, due to a lack of availability of some components for the board, they ceased production of the NEO2 board. The WLAN Pi itself was a kit that comprised the NEO2 board, an OLED display board and a metal case.
+The original WLAN Pi platform was based on the [NEO2 SBC Kit][Friendlyarm]{target=_blank} which was available from the Friendly Elec company in China. However, due to a lack of availability of some components for the board, they ceased production of the NEO2 board and hence the NEO2 kit. 
 
+The NEO2 kit comprised the NEO2 board, an OLED display board, metal case and an SD card. Theoretically, if you can find a NEO2 board in some dusty corner of the Internet, you could still put together your own kit, as the remaining kit items are still available from Friendly Elec. 
+
+It's also worth checking our [suppliers][suppliers] page to see if they have any kits available. They may occasionally obtain some surplus stock, if and when they can find it, so may have the NEO2 kit in stock in limited numbers from time to time.
+
+To answer the question about replacement hardware, the honest answer is that there is no definite date for a replacement hardware platform being available. The team has recently looked at the new NEO3 board from Friendly Elec, but this has been discounted as a replacement at this time due to a number of technical limitations which ruled it out.
+
+The team is currently investigating the "Rock Pi E" SBC as a possible replacement to the NEO2, though this will require an additional HAT to provide additional features that are required. Realistically, given the requirement for the fabrication of an additional HAT and items such as printed cases, the end of 2020 is probably a realistic time-frame for new hardware being available. As we move closer to finalising hardware details, we will be able to provide a more accurate timescale assessment - stay tuned! 
 
 
 ## Where can I get hold of a WLAN Pi kit?
@@ -15,7 +22,7 @@ Please check out our [suppliers page][suppliers] for the latest information on W
 
 ## Where can I get the latest WLAN Pi image?
 
-You can obtain the latest base image for the WLAN Pi from the releases area of the WAN Pi GitHub repository:
+You can obtain the latest base image from the releases area of the WLAN Pi GitHub repository:
 
 [https://github.com/WLAN-Pi/releases/releases](https://github.com/WLAN-Pi/releases/releases){target=_blank}
 
@@ -23,41 +30,36 @@ Once downloaded, you can burn it on to an SD card as described in the following 
 
 ## How do I find which image version is currently installed on my WLAN?
 
-If you look on the top-level "home" page of the front panel display, the version number of the image should be shown on the top left of the display.
+If you look on the top-level "home" page of the front panel display, the version number of the image should be shown on the top right of the display:
+<div>![WLAN Pi Display](images/wlanpi_display.jpg)</div>
+
+If you are the CLI of the WLAN Pi, you may also check by performing the following command:
+
+```
+wlanpi@wlanpi:/$ cat /etc/wlanpi-release
+VERSION="2.0.0-dev3"
+```
 
 ## How do I burn a WLAN Pi image?
 
-Checkout this administration document: [Burning a WLAN Pi Image][burn_image]
+Checkout this administration note: [Burning a WLAN Pi Image][burn_image]
 
-## How do I change the password for the wlanpi user
+## How do I change the password for the wlanpi user?
 
-Changing the default password for the wlanpi user is highly recommended to help secure your unit.
-
-To change from the default password (which is 'wlanpi'), SSH to the WLANP Pi and use the 'passwd' command as follows:
-
-```
-wlanpi@wlanpi:~$ passwd
-Changing password for wlanpi.
-(current) UNIX password: wlanpi
-Enter new UNIX password: <enter new pwd>
-Retype new UNIX password: <enter new pwd again>
-passwd: password updated successfully
-wlanpi@wlanpi:~$
-```
+Checkout this administration note: [Change the Password of the wlanpi User][change_pwd]
 
 **If connecting the WLAN Pi to any network, changing the default password should be a top priority. If the WLAN Pi becomes compromised as default credentials have been left in place, this could have very serious consequences.**
+
 
 ## How do I change the hostname of my WLAN Pi
 
 Checkout this administration note: [Change the hostname of a WLAN Pi][hostname]
 
+
 ## How do I set the timezone on my WLAN Pi?
 
-From the CLI of your WLAN Pi:
+Checkout this administration note: [Change the Timezone of a WLAN Pi][timezone]
 
-```
-sudo dpkg-reconfigure tzdata
-```
 
 ## How do I connect my WLAN Pi to my wireless network?
 
@@ -158,4 +160,6 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.html
 [burn_image]: admin/burn_image.md
 [hostname]: admin/hostname.md
-[Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=276
+[change_pwd]: admin/change_pwd.md
+[timezone]: admin/timezone.md
+[Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=189

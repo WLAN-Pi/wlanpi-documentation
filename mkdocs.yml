@@ -4,6 +4,7 @@ nav:
     - What's New For V2?: v2/index.md
     - FAQ: faq.md
     - Getting Started: get_started/index.md
+    - Supported Hardware: supported_hardware.md 
     - Toolset: toolset/toolset.md
     - Administration: admin/index.md
     - News: news.md
