@@ -140,7 +140,7 @@ If you hit this issue, try another cable (or two)
 
 ## Which wireless adapters are supported on the WLAN Pi ?
 
-TBA - New info pending for v2.x.x
+Please checkout our [Supported Hardware][supported_hardware] page.
 
 ## Where can I get help support with my WLAN Pi?
 
@@ -163,3 +163,4 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [change_pwd]: admin/change_pwd.md
 [timezone]: admin/timezone.md
 [Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=189
+[supported_hardware]: supported_hardware.md#wireless-adapters
