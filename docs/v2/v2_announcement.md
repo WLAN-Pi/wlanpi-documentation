@@ -100,3 +100,9 @@ MediaTek MT7612U based Wi-Fi adapters are now fully supported.
 
 Ex. Netgear A6210, Alfa AWUS036ACM, or any other Wi-Fi adapter that uses the MT7612U chipset.
 
+
+
+[<-- back][back]
+
+<!-- Link list -->
+[back]: index.md

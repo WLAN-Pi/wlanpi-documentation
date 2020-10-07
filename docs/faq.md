@@ -3,6 +3,12 @@ Authors: Nigel Bowden
 
 # FAQ
 
+## I hear the NEO2 is no longer available - when will replacement hardware be available?
+
+The original WLAN Pi platform was the [NEO2 SBC][Friendlyarm]{target=_blank} which was available from the FriendlyArm company in China. However, due to a lack of availability of some components for the board, they ceased production of the NEO2 board. The WLAN Pi itself was a kit that comprised the NEO2 board, an OLED display board and a metal case.
+
+
+
 ## Where can I get hold of a WLAN Pi kit?
 
 Please check out our [suppliers page][suppliers] for the latest information on WLAN Pi hardware availability.
@@ -152,3 +158,4 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [Win10_Host_Issue]: https://dutchwifigeek.blogspot.com/2019/10/using-wlan-pis-usb-host-interface-in.html
 [burn_image]: admin/burn_image.md
 [hostname]: admin/hostname.md
+[Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=276
