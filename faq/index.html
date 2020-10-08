@@ -328,26 +328,6 @@
     How do I connect my WLAN Pi to my wireless network?
   </a>
   
-    <nav class="md-nav" aria-label="How do I connect my WLAN Pi to my wireless network?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#etcnetworkinterfaces" class="md-nav__link">
-    /etc/network/interfaces
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#etcwpa_supplicantwpa_supplicantconf" class="md-nav__link">
-    /etc/wpa_supplicant/wpa_supplicant.conf
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -985,26 +965,6 @@
     How do I connect my WLAN Pi to my wireless network?
   </a>
   
-    <nav class="md-nav" aria-label="How do I connect my WLAN Pi to my wireless network?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#etcnetworkinterfaces" class="md-nav__link">
-    /etc/network/interfaces
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#etcwpa_supplicantwpa_supplicantconf" class="md-nav__link">
-    /etc/wpa_supplicant/wpa_supplicant.conf
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1079,54 +1039,7 @@ VERSION=&quot;2.0.0-dev3&quot;
 <h2 id="how-do-i-set-the-timezone-on-my-wlan-pi">How do I set the timezone on my WLAN Pi?</h2>
 <p>Checkout this administration note: <a href="../admin/timezone/">Change the Timezone of a WLAN Pi</a></p>
 <h2 id="how-do-i-connect-my-wlan-pi-to-my-wireless-network">How do I connect my WLAN Pi to my wireless network?</h2>
-<p>Assuming your network uses a PSK, simply edit the following files:</p>
-<ul>
-<li>/etc/network/interfaces</li>
-<li>/etc/wpa_supplicant/wpa_supplicant.conf</li>
-</ul>
-<h3 id="etcnetworkinterfaces">/etc/network/interfaces</h3>
-<p>Edit the file as follows:</p>
-<pre><code>sudo nano /etc/network/interfaces
-</code></pre>
-
-<p>Edit the following section of the file for wlan0:</p>
-<pre><code># Wireless adapter #1
-# Armbian ships with network-manager installed by default. To save you time
-# and hassles consider using 'sudo nmtui' instead of configuring Wi-Fi settings
-# manually. The below lines are only meant as an example how configuration could
-# be done in an anachronistic way:
-#
-allow-hotplug wlan0
-iface wlan0 inet dhcp
-#address 192.168.0.100
-#netmask 255.255.255.0
-#gateway 192.168.0.1
-#dns-nameservers 8.8.8.8 8.8.4.4
-#   wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-# Disable power saving on compatible chipsets (prevents SSH/connection dropouts over WiFi)
-wireless-mode Monitor
-#wireless-power off
-</code></pre>
-
-<p>Remove the "#" character from the start of the line:</p>
-<pre><code>#   wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-</code></pre>
-
-<p>Save the file by hitting CTRL-x</p>
-<h3 id="etcwpa_supplicantwpa_supplicantconf">/etc/wpa_supplicant/wpa_supplicant.conf</h3>
-<p>Edit the file as follows:</p>
-<pre><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-&lt;make your changes&gt;
-CTRL-x
-</code></pre>
-
-<p>Enter your SSID and PSK in the areas indicated in the file. For the new settings to take effect, you have 3 options:</p>
-<ul>
-<li>Unplug and re-insert your USB wireless NIC</li>
-<li>Issue the following command on the WLAN Pi CLI : <code>sudo ifdown wlan0; sudo ifup wlan0</code></li>
-<li>Reboot your WLAN Pi (remove the power or issue the <code>sudo reboot</code> command on the CLI) </li>
-</ul>
-<p>(For other security methods, look in the following file for configuration examples: /home/wlanpi/wiperf/conf/etc/wpa_supplicant/wpa_supplicant.conf)</p>
+<p>Checkout this administration note: <a href="../admin/wifi_client/">Connecting You WLAN Pi to a Wireless Network</a></p>
 <h2 id="im-having-difficult-getting-a-connection-over-the-usb-link-to-my-wlan-pi-whats-going-on">I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?</h2>
 <p>The WLAN Pi has a very useful feature that allows you to connect your Mac or Window machine to a WAN Pi via a USB connection. This is effectively an Ethernet over USB connection, also known as an OTG connection (On The Go).</p>
 <p>This requires a USB to micro-USB cable to hook up your laptop/Mac to the micro-USB socket on the WLAN Pi (which is also used to power the WLAN Pi).</p>
