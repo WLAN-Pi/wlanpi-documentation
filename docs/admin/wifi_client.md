@@ -1,7 +1,7 @@
-Title: Connecting You WLAN Pi to a Wireless Network
+Title: Connecting Your WLAN Pi to a Wireless Network
 Authors: Nigel Bowden
 
-# Connecting You WLAN Pi to a Wireless Network
+# Connecting Your WLAN Pi to a Wireless Network
 
 Assuming your network uses a PSK, simply edit the following files:
 
