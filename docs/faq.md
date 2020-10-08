@@ -22,7 +22,7 @@ Please check out our [suppliers page][suppliers] for the latest information on W
 
 ## Where can I get the latest WLAN Pi image?
 
-You can obtain the latest base image from the releases area of the WLAN Pi GitHub repository (look for the assets section that contains the image - the file name will be something like: ```wlanpi-neo2-v2.0.0.img.gz```:
+You can obtain the latest base image from the releases area of the WLAN Pi GitHub repository (look for the assets section that contains the image - the file name will be something like: ```wlanpi-neo2-v2.0.0.img.gz```):
 
 [https://github.com/WLAN-Pi/releases/releases](https://github.com/WLAN-Pi/releases/releases){target=_blank}
 
