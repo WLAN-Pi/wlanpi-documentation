@@ -44,6 +44,12 @@ VERSION="2.0.0-dev3"
 
 Checkout this administration note: [Burning a WLAN Pi Image][burn_image]
 
+
+## How do I update software packages on the WLAN Pi?
+
+Checkout this administration note: [Burning a WLAN Pi Image][[updating_packages]]
+
+
 ## How do I change the password for the wlanpi user?
 
 Checkout this administration note: [Change the Password of the wlanpi User][change_pwd]
@@ -106,5 +112,6 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [change_pwd]: admin/change_pwd.md
 [timezone]: admin/timezone.md
 [wifi_client]: admin/wifi_client.md
+[updating_packages]: updating_packages.md
 [Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=189
 [supported_hardware]: supported_hardware.md#wireless-adapters

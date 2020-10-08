@@ -14,6 +14,9 @@ In this section, we'll provide access to a number of tech notes to provide guida
 * [Burning a WLAN Pi image on to an SD card][burn_image]
 * [Updating WLAN Pi packages][updating_packages]
 * [Change the password of the wlanpi user][wlanpi_pwd]
+* [Updating software Packages on the WLAN Pi][updating_packages]
+* [Connecting Your WLAN Pi to a Wireless Network][wifi_client]
+
 
 <!-- Link list -->
 [back]: index.md
@@ -22,4 +25,5 @@ In this section, we'll provide access to a number of tech notes to provide guida
 [burn_image]: burn_image.md
 [updating_packages]: updating_packages.md
 [wlanpi_pwd]: change_pwd.md
+[wifi_client]: wifi_client.md
 
