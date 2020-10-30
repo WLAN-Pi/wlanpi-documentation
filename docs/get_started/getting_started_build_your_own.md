@@ -21,6 +21,7 @@ Optional extra items:
 - Lithium battery (in case you want to leave the WLAN Pi powered on for a few hours somewhere)
 - Extra [micro-SD card][Micro_SD] (in case you'd like a spare for different image versions or customizations)
 - [Custom Handheld Case][Handheld_Case]: Designed specifically for use with the WLAN Pi, houses the Wi-Fi adapter and USB-C cable, while still exposing the USB port and ethernet port on the bottom, while still allowing access to the MicroSD slot - a great addition to make the WLAN Pi in to a true hand-held tester! (Created by Joel Crane [@Potato_Fi][Potato_Fi] 
+
 ![Custom WLAN Pi case](../images/wlanpi_case.jpg)
 
 !!! info
