@@ -76,8 +76,8 @@ Checkout this administration note: [Connecting You WLAN Pi to a Wireless Network
 
 Yes, check out the following links:
 
-* [https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case](https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case)
-* [http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html](http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html)
+* [https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case](https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case){target=_blank}
+* [http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html](http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html){target=_blank}
 
 
 ## I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?

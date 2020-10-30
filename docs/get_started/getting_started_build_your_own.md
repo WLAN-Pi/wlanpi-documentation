@@ -26,8 +26,8 @@ Optional extra items:
 !!! info
     Want to 3D print your own case? Check out the following links:
 
-    * [https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case](https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case)
-    * [http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html](http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html)
+    * [https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case](https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case){target=_blank}
+    * [http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html](http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html){target=_blank}
 
 
 <small>(Note: some the the links on this page are Amazon affiliate links)</small>
