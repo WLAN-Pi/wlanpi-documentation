@@ -23,7 +23,12 @@ Optional extra items:
 - [Custom Handheld Case][Handheld_Case]: Designed specifically for use with the WLAN Pi, houses the Wi-Fi adapter and USB-C cable, while still exposing the USB port and ethernet port on the bottom, while still allowing access to the MicroSD slot - a great addition to make the WLAN Pi in to a true hand-held tester! (Created by Joel Crane [@Potato_Fi][Potato_Fi] 
 ![Custom WLAN Pi case](../images/wlanpi_case.jpg)
 
-More info: <http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html>
+!!! info
+    Want to 3D print your own case? Check out the following links:
+
+    * [https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case](https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case)
+    * [http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html](http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html)
+
 
 <small>(Note: some the the links on this page are Amazon affiliate links)</small>
 

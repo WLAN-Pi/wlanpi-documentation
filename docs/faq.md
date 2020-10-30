@@ -47,7 +47,7 @@ Checkout this administration note: [Burning a WLAN Pi Image][burn_image]
 
 ## How do I update software packages on the WLAN Pi?
 
-Checkout this administration note: [Burning a WLAN Pi Image][[updating_packages]]
+Checkout this administration note: [Burning a WLAN Pi Image][[updating_packages]
 
 
 ## How do I change the password for the wlanpi user?
@@ -70,6 +70,14 @@ Checkout this administration note: [Change the Timezone of a WLAN Pi][timezone]
 ## How do I connect my WLAN Pi to my wireless network?
 
 Checkout this administration note: [Connecting You WLAN Pi to a Wireless Network][wifi_client]
+
+
+##  I'd like to 3D print my own WLAN Pi case - are the printer plans available?
+
+Yes, check out the following links:
+
+* [https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case](https://www.prusaprinters.org/prints/16184-wlan-pi-handheld-case)
+* [http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html](http://www.potatofi.com/2019/10/the-wlan-pi-handheld-case.html)
 
 
 ## I'm having difficult getting a connection over the USB link to my WLAN Pi? What's going on?
