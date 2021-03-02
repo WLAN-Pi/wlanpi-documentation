@@ -3,6 +3,7 @@ nav:
     - Home: index.md
     - What's New For V2?: v2/index.md
     - FAQ: faq.md
+    - Learning Resources: learning_resources.md
     - Getting Started: get_started/index.md
     - Supported Hardware: supported_hardware.md 
     - Toolset: toolset/toolset.md
