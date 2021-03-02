@@ -41,11 +41,10 @@ nav:
         - Useful Links: v1/useful_links.md
 theme:
     name: 'material'
+    custom_dir: overrides
     icon:
         logo: material/wifi
     language: en
-    features:
-        - navigation.tabs
 extra_css:
   - extra.css
 markdown_extensions:
