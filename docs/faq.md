@@ -120,6 +120,6 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [change_pwd]: admin/change_pwd.md
 [timezone]: admin/timezone.md
 [wifi_client]: admin/wifi_client.md
-[updating_packages]: updating_packages.md
+[updating_packages]: admin/updating_packages.md
 [Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=189
 [supported_hardware]: supported_hardware.md#wireless-adapters
