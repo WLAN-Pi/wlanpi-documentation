@@ -13,8 +13,11 @@ Today, it can also be used as a remote Wi-Fi scanner, packet capture tool, porta
 
  See our [Getting Started][Getting_Started] page to find out how you can get your own WLAN Pi setup. 
 
+ Here is an excellent article about the history of the WLAN Pi that provides a great account of the evolution of the WLAN Pi, by [Zaib Kaleem](https://twitter.com/ZaibKaleem){target=_blank}: [A Brief History of the WLAN Pi Project][AccessAgility_Article]{target=_blank}
+
 <!-- link list -->
 [WLPC_2016]: https://www.wlanpros.com/resource/?wpv-category=2016-us-phoenix&wpv_aux_current_post_id=2623
 [Getting_Started]: get_started/index.md
+[AccessAgility_Article]: https://www.accessagility.com/blog/wlan-pi-project
 
 
