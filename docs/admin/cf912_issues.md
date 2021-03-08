@@ -37,7 +37,7 @@ Internally, the dev team has settled on what is internally referred to as the "n
 
 The good news is that if/when you obtain one of these adapters and have the orange-case WLAN Pi kit, it is very easy to swap out the CF-912 NIC inside the case for the no-name MT7612U adapter. I've provided a few photos below, taken when I swapped out my own CF-912 recently. In summary, you will need to:
 
-1. Remove the front panel sticker
+1. On older cases the sticker needs to be removed as bolt heads are under the sticker. On newer cases, the bolts heads are accessible from the rear of the case, so sticker removal not required.
 2. Use a hex spanner to undo the 3 retaining bolts
 3. Remove the micro-SD card
 3. Prise the plastic case top/bottom sections apart
@@ -47,13 +47,13 @@ The good news is that if/when you obtain one of these adapters and have the oran
 7. Put the case back together
 8. Re-insert the micro-SD card 
 9. Re-install the retaining bolts
-10. Re-apply the front panel sticker
+10. (On older cases only) Re-apply the front panel sticker
 
 ![Swap-out step 1](../images/cf912_swapout_1.jpg)<br>
 <span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
 
 ![Swap-out step 2](../images/cf912_swapout_2.jpg)<br>
-<span style="font-size: small; color:gray">Remove sticker to reveal 3 x securing bolts</span>
+<span style="font-size: small; color:gray">On older cases the sticker needs to be removed as bolt heads are under the sticker. On newer cases, the bolts heads are accessible from the rear of the case, so sticker removal not required</span>
 
 ![Swap-out step 3](../images/cf912_swapout_3.jpg)<br>
 <span style="font-size: small; color:gray">Remove the 3 hex-head bolts and make sure the micro-SD card is removed (flip over the case to locate the micro-SD card - press the card in and it will pop out on a spring release)</span>
@@ -71,7 +71,7 @@ The good news is that if/when you obtain one of these adapters and have the oran
 <span style="font-size: small; color:gray">Put the Neo2/USB assembly back in to the bottom half of the case (making sure to locate the USB cable correctly in the provided cable channel)</span>
 
 ![Swap-out step 8](../images/cf912_swapout_8.jpg)<br>
-<span style="font-size: small; color:gray">Clip the two halves of the case back together, re-insert the 3 retaining bolts, re-insert the micro-SD card and re-apply the sticker</span>
+<span style="font-size: small; color:gray">Clip the two halves of the case back together, re-insert the 3 retaining bolts, re-insert the micro-SD card and (on older cases only) re-apply the sticker</span>
 
 ## RPi Support
 
