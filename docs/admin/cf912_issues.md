@@ -17,6 +17,9 @@ The WLAN Pi team recently had a report from one of our kind users (thanks [Juan!
 
 This is a suspected issue with the Realtek driver, so there is little we can do to fix the 2 stream 11ac capture issue. During testing, it was noted that there may be the occasional 2SS 11ac data frames observed, but this was sporadic and unpredictable. The issue has been [reported by other users](https://github.com/aircrack-ng/rtl8812au/issues/635){target=_blank} of the chipset driver, and we have added our own reports of the observed issue. The issue may be fixed at some stage, but as this issue appears to have been present for quite some time, this is unlikely to be fixed in the short-term.
 
+![CF912_capture](../images/cf912_capture.PNG)<br>
+<span style="font-size: small; color:gray">Capture of speedtest with CF912 adapter - note that only Ctrl (orange) frames are seen, no 2SS data frames</span>
+
 (__Note:__ *Remember, the CF912 NIC is an 802.11ac, 2 stream device. Any data frames that use 802.11ac, 3 spatial streams will never be captured by the NIC. Also, no 802.11ax data frames can be captured by the NIC.*)
 
 ## Alternative NIC
@@ -76,6 +79,10 @@ In summary, you will need to:
 
 ![Swap-out step 8](../images/cf912_swapout_8.jpg)<br>
 <span style="font-size: small; color:gray">Clip the two halves of the case back together, re-insert the 3 retaining bolts, re-insert the micro-SD card and (on older cases only) re-apply the sticker</span>
+
+
+![MT7612U_capture](../images/mt7612u_capture.PNG)<br>
+<span style="font-size: small; color:gray">Capture of speedtest with MT7612U adapter - note that both Ctrl (orange) frames and VHT 2SS data frames (blue) are seen in the capture</span>
 
 ## RPi Support
 
