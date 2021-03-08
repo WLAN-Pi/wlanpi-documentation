@@ -16,6 +16,7 @@ In this section, we'll provide access to a number of tech notes to provide guida
 * [Change the password of the wlanpi user][wlanpi_pwd]
 * [Updating software Packages on the WLAN Pi][updating_packages]
 * [Connecting Your WLAN Pi to a Wireless Network][wifi_client]
+* [CF-912AC capture issues - swapping out for a MediaTek adapter][cf912_capture_issues]
 
 
 <!-- Link list -->
@@ -26,4 +27,5 @@ In this section, we'll provide access to a number of tech notes to provide guida
 [updating_packages]: updating_packages.md
 [wlanpi_pwd]: change_pwd.md
 [wifi_client]: wifi_client.md
+[cf912_capture_issues]: cf912_issues.md
 
