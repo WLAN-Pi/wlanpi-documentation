@@ -35,7 +35,11 @@ Internally, the dev team has settled on what is internally referred to as the "n
 
 ## NIC Swap-out 
 
-The good news is that if/when you obtain one of these adapters and have the orange-case WLAN Pi kit, it is very easy to swap out the CF-912 NIC inside the case for the no-name MT7612U adapter. I've provided a few photos below, taken when I swapped out my own CF-912 recently. In summary, you will need to:
+The good news is that if/when you obtain one of these adapters and have the orange-case WLAN Pi kit, it is very easy to swap out the CF-912 NIC inside the case for the no-name MT7612U adapter. I've provided a few photos below, taken when I swapped out my own CF-912 recently. 
+
+You may also be interested to review [this video](https://www.youtube.com/watch?v=8xih17YZF8c){target_blank} from Joel Crane to see how the WLAN Pi case kit fits together: [Link](https://www.youtube.com/watch?v=8xih17YZF8c){target_blank}
+
+In summary, you will need to:
 
 1. On older cases the sticker needs to be removed as bolt heads are under the sticker. On newer cases, the bolts heads are accessible from the rear of the case, so sticker removal not required.
 2. Use a hex spanner to undo the 3 retaining bolts
