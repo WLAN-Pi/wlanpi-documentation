@@ -23,7 +23,7 @@ However, sourcing a USB NIC that contains this chipset has not been without its 
 
 Internally, the dev team has settled on what is internally referred to as the "no-name" MediaTek adapter. The easiest place to source this adapter is currently the AliExpress store, and is available from many different suppliers - here is once source that I have used: [https://www.aliexpress.com/item/1005001510706842.html](https://www.aliexpress.com/item/1005001510706842.html){target=_blank}. (Hopefully, perhaps some of our suppliers may pick up on thie requirement and make these available). If you search for the phrase `New arrival Black MT7612U` on [Aliexepress](https://www.aliexpress.com){target=_blank}, you will see that there are many suppliers of this USB dongle to choose from. When ordering, you can expect delivery to typically take a few weeks.
 
-![MT7612u](images/mt7612u_adapter.png)
+![MT7612u](../images/mt7612u_adapter.png)
 
 ## NIC Swap-out 
 
@@ -41,7 +41,27 @@ The good news is that if/when you obtain one of these adapters, if you have the 
 9. Re-install the retaining bolts
 10. Re-apply the front panel sticker
 
-![Swap-out step 1](images/cf912_swapout_1.jpg)
+![Swap-out step 1](../images/cf912_swapout_1.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
+![Swap-out step 2](../images/cf912_swapout_2.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
+![Swap-out step 3](../images/cf912_swapout_3.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
+![Swap-out step 4](../images/cf912_swapout_4.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
+![Swap-out step 5](../images/cf912_swapout_5.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
+![Swap-out step 6](../images/cf912_swapout_6.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
+![Swap-out step 7](../images/cf912_swapout_7.jpg)
+<span style="font-size: small; color:gray">WLAN Pi case & new MT7612U adapter</span>
+
 
 
 [<-- back][back]
