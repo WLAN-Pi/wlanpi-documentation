@@ -13,7 +13,9 @@ It's also worth checking our [suppliers][suppliers] page to see if they have any
 
 To answer the question about replacement hardware, the honest answer is that there is no definite date for a replacement hardware platform being available. The team has recently looked at the new NEO3 board from Friendly Elec, but this has been discounted as a replacement at this time due to a number of technical limitations which ruled it out.
 
-The team is currently investigating the "Rock Pi E" SBC as a possible replacement to the NEO2, though this will require an additional HAT to provide additional features that are required. Realistically, given the requirement for the fabrication of an additional HAT and items such as printed cases, the end of 2020 is probably a realistic time-frame for new hardware being available. As we move closer to finalising hardware details, we will be able to provide a more accurate timescale assessment - stay tuned! 
+The "Rock Pi E" SBC was considered as a possible successor to the NEO2, but after investigation, there were a number of challenges which meant that it was discounted from further consideration.
+
+The team is currently investigating (yet another!) alternative SBC as a possible replacement to the NEO2. This will require an additional carrier board/HAT to provide additional features and connectivity that are on our requirements list. It's always tricky to provide exact timescales, but as of March 2021, we are hopeful of having a finalised platform within around a 3 months time-frame. As we move closer to finalising hardware details, we will be able to provide a more accurate timescale assessment - stay tuned!
 
 
 ## Where can I get hold of a WLAN Pi kit?
@@ -71,6 +73,9 @@ Checkout this administration note: [Change the Timezone of a WLAN Pi][timezone]
 
 Checkout this administration note: [Connecting You WLAN Pi to a Wireless Network][wifi_client]
 
+## Why do I see missing data frames when capturing over the air with the WLAN Pi
+
+Checkout this administration note: [CF-912 Capture Issues][cf912_capture_issues]
 
 ##  I'd like to 3D print my own WLAN Pi case - are the printer plans available?
 
@@ -123,3 +128,4 @@ If you have a feature suggestion for the WLAN Pi, please get along to the GitHub
 [updating_packages]: admin/updating_packages.md
 [Friendlyarm]: https://www.friendlyarm.com/index.php?route=product/product&product_id=189
 [supported_hardware]: supported_hardware.md#wireless-adapters
+[cf912_capture_issues]: admin/cf912_issues.md
