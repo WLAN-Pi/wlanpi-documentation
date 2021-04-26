@@ -100,6 +100,10 @@ If you hit this issue, try another cable (or two)
 
 2. The second issue we hear about impacts Windows users. Please check out this super blog post if you have a Windows laptop and you think your cable is good: [Blog Post Link][Win10_Host_Issue]
 
+# On Windows I see the USB connection to the WLAN Pi as a serial port rather than an Ethernet port. Why?
+
+In this [blog article][Win10_Host_Issue], Patrick Langendoen discusses how to fix an issue on Windows machines with detecting the USB connection to a WLANPi as a serial port, rather than the expected USB Ethernet /RNDIS interfaces: [link][Win10_Host_Issue]
+
 ## Which wireless adapters are supported on the WLAN Pi ?
 
 Please checkout our [Supported Hardware][supported_hardware] page.
